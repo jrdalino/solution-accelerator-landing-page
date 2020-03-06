@@ -3,6 +3,9 @@
 ## Prerequisites
 - Naming Convention: "< projname >-< provider >-< service >-< language >"
 
+## Architecture Diagram
+![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
+
 ## Step 1: Set up Terraform State Backend             https://github.com/jrdalino/myproject-aws-tfstate-backend-terraform 
 ## Step 2: Set up VPC & EKS Cluster                   https://github.com/jrdalino/myproject-aws-eks-terraform 
 ## Step 3: Set up Lambda to EKS                       https://github.com/jrdalino/myproject-aws-lambda-deploy-ecr-to-eks-nodejs
