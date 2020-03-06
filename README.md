@@ -31,3 +31,6 @@
 - https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube
 - EKS Dashboard
 - https://github.com/jrdalino/myproject-aws-eks-xray-java
+- AWS WAF
+- AWS CloudFront
+- Route53
