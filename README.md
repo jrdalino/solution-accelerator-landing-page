@@ -1,7 +1,7 @@
 # myproject-landing-page
 
 ## Prerequisites
-- Naming Convention: "< projname >-< provider >-< service >-< language >"
+- Naming Convention: < projname >-< provider >-< service >-< language >
 
 ## Architecture Diagram
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
