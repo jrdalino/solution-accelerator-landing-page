@@ -1,7 +1,7 @@
 # myproject-landing-page
 
 ## Prerequisites
-- Naming Convention: <projname>-<provider>-<service>-<language>
+- Naming Convention: "<projname>-<provider>-<service>-<language>"
 
 ## Step 1: Set up Terraform State Backend             https://github.com/jrdalino/myproject-aws-tfstate-backend-terraform 
 ## Step 2: Set up VPC & EKS Cluster                   https://github.com/jrdalino/myproject-aws-eks-terraform 
