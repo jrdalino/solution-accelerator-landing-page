@@ -34,4 +34,4 @@
 - Route53
 
 # Appendix
-- Naming Convention: < projname >-< provider >-< service >-< language >
+- Naming Convention: < project >-< provider >-< service >-< language >
