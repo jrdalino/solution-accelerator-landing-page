@@ -76,7 +76,7 @@
 | 14 | AWS Detective                             | Add URL here |
 | 15 | OWASP Top 10                              | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
 | 16 | AWS GuardDuty                             | https://github.com/jrdalino/aws-guardduty |
-| 17 | Backend Static Testing w/ Sonarqube       | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
+| 17 | Backend Static Testing w/ Sonarqube       | https://github.com/jrdalino/kubernetes-helm-sonarqube |
 | 18 | Backend Dynamic Testing                   | Add URL here |
 | 19 | Frontend Static Testing                   | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
 | 20 | Frontend Dynamic Testing                  | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
