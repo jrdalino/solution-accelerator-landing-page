@@ -16,7 +16,7 @@
 - Business Metrics
 - Service Levels
 - Software Architecture: https://github.com/jrdalino/system-design-primer
-- Infra Architecture Diagram:
+- Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
 ### Steps
