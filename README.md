@@ -42,21 +42,28 @@
 ### Security and Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening | 
-| 2 | AWS Cloudtrail                             | https://github.com/jrdalino/aws-cloudtrail |
-| 2 | AWS KMS                                    | Add URL here |
-| 3 | AWS Secrets Manager                        | https://github.com/jrdalino/aws-secrets-manager |
-| 4 | AWS Certificate Manager                    | https://github.com/jrdalino/aws-certificate-manager |
-| 5 | AWS WAF                                    | Add URL here |
-| 6 | AWS GuardDuty                              | https://github.com/jrdalino/aws-guardduty |
-| 7 | AWS Delete Default VPC                     | 
-https://github.com/jrdalino/aws-delete-default-vpc |
-| 8 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
-| 9 | OWASP Top 10                               | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
-| 10 | Backend Static Testing w/ Sonarqube        | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
-| 11 | Backend Dynamic Testing                   | Add URL here |
-| 12 | Frontend Static Testing                   | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
-| 13 | Frontend Dynamic Testing                  | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
+
+| 1 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
+| 2 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening |
+| 3 | AWS Cloudtrail                             | https://github.com/jrdalino/aws-cloudtrail |
+| 4 | AWS Delete Default VPC                     | https://github.com/jrdalino/aws-delete-default-vpc |
+
+| 5 | AWS Secrets Manager                        | https://github.com/jrdalino/aws-secrets-manager |
+| 6 | AWS Inspector                              | Add URL here |
+| 7 | AWS Macie                                  | Add URL here |
+| 8 | AWS Certificate Manager                    | https://github.com/jrdalino/aws-certificate-manager |
+| 9 | AWS KMS                                    | Add URL here |
+| 10 | AWS WAF                                   | Add URL here |
+| 11 | AWS Firewall Manager                      | Add URL here |
+| 12 | AWS Artifact                              | Add URL here |
+| 13 | AWS Security Hub                          | Add URL here |
+| 14 | AWS Detective                             | Add URL here |
+| 15 | OWASP Top 10                              | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
+| 16 | AWS GuardDuty                             | https://github.com/jrdalino/aws-guardduty |
+| 17 | Backend Static Testing w/ Sonarqube       | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
+| 18 | Backend Dynamic Testing                   | Add URL here |
+| 19 | Frontend Static Testing                   | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
+| 20 | Frontend Dynamic Testing                  | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
 
 ### Reliability
 | Step | Description | URL |
