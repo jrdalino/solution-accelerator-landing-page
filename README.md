@@ -21,7 +21,7 @@
 - Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
-### Steps
+### Minimum Viable Pilot (MVP)
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
