@@ -33,7 +33,7 @@
 | 7 | Setup NoSQL Database for Account Service   | https://github.com/jrdalino/myproject-aws-dynamodb-account-service-terraform | Not Yet Started |
 | 8 | Setup Back End Acccount Service            | https://github.com/jrdalino/myproject-account-service-python | Not Yet Started |
 | 9 | Setup CI/CD for Account Service            | https://github.com/jrdalino/myproject-aws-codepipeline-account-service-terraform | Not Yet Started |
-| 10 | Setup Cognito                             | https://github.com/jrdalino/myproject-aws-cognito-terraform | For Checking |
+| 10 | Setup Cognito                             | https://github.com/jrdalino/aws-cognito-terraform | For Checking |
 | 11 | API Gateway and VPC Link                  | https://github.com/jrdalino/myproject-aws-apigateway-terraform | Ongoing |
 | 12 | Setup Front End (React)                   | https://github.com/jrdalino/myproject-web-service-react | Not Yet Started |
 | 13 | Setup CI/CD for Front End Web App         | https://github.com/jrdalino/myproject-web-service-codepipeline-terraform | Not Yet Started |
