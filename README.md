@@ -44,13 +44,13 @@
 ### Choose the Right Storage / Database Service
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS ECR                                    | Add URL here |
-| 2 | AWS CodeCommit                             | Add URL here |
-| 3 | AWS S3                                     | Add URL here |
+| 1 | AWS ECR                                    | https://github.com/jrdalino/aws-ecr-terraform |
+| 2 | AWS CodeCommit                             | https://github.com/jrdalino/aws-codecommit-terraform |
+| 3 | AWS S3                                     | https://github.com/jrdalino/aws-s3-terraform |
 | 4 | AWS Glacier                                | Add URL here |
 | 5 | AWS EFS                                    | Add URL here |
 | 6 | AWS RDS                                    | Add URL here |
-| 7 | AWS DynamoDB                               | Add URL here |
+| 7 | AWS DynamoDB                               | https://github.com/jrdalino/aws-dynamodb-terraform |
 | 8 | AWS DynamoDB DAX                           | Add URL here |
 | 9 | AWS ElastiCache                            | Add URL here |
 | 10 | AWS Neptune                               | Add URL here |
