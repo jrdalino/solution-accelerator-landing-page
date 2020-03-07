@@ -46,6 +46,11 @@
 | 2 | AWS KMS                                    | Add URL here |
 | 3 | AWS WAF                                    | Add URL here |
 | 4 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
+| 5 | OWASP Top 10                               | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
+| 6 | Backend Static Testing w/ Sonarqube        | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
+| 7 | Backend Dynamic Testing                    | Add URL here |
+| 8 | Frontend Static Testing                    | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
+| 9 | Frontend Dynamic Testing                   | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
 
 ### Reliability
 | Step | Description | URL |
@@ -56,6 +61,10 @@
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS CloudFront                             | Add URL here |
+| 2 | AWS DynamoDB DAX                           | Add URL here |
+| 3 | AWS Elasticsearch                          | Add URL here |
+| 4 | AWS RDS                                    | Add URL here |
+| 5 | AWS ElastiCache                            | Add URL here |
 
 ###  Cost Optimisation
 | Step | Description | URL |
@@ -67,5 +76,6 @@
 | ---- | ----------- | --- |
 | 1 | AWS Route 53                               | Add URL here |
 | 2 | Helm Install                               | https://github.com/jrdalino/myproject-kubernetes-helm-install |
-| 3 | Sonarqube Setup                            | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
-| 4 | EKS Dashboard                              | https://github.com/jrdalino/myproject-aws-eks-dashboard-kubectl |
+
+| 5 | EKS Dashboard                              | https://github.com/jrdalino/myproject-aws-eks-dashboard-kubectl |
+| 6 | CI/CD For IaaS                             | Add URL here |
