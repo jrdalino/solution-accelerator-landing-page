@@ -92,9 +92,6 @@ https://github.com/jrdalino/aws-delete-default-vpc |
 | 4 | CI/CD For IaaS                             | Add URL here |
 | 5 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
 | 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions |
-| 6 | AWS Health                                 | https://github.com/jrdalino/aws-health |
-
-https://github.com/jrdalino/install-grafana-using-helm
-https://github.com/jrdalino/install-prometheus-using-helm
-
-
+| 7 | AWS Health                                 | https://github.com/jrdalino/aws-health |
+| 8 | Install Grafana using Helm                 | https://github.com/jrdalino/install-grafana-using-helm |
+| 9 | Install Prometheus using Helm              | https://github.com/jrdalino/install-prometheus-using-helm |
