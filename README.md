@@ -26,7 +26,7 @@
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/myproject-aws-eks-terraform & https://github.com/jrdalino/myproject-aws-eks-eksctl |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/myproject-aws-lambda-deploy-ecr-to-eks-nodejs |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform |
-| 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python |
+| 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python & https://github.com/jrdalino/backend-python-flask-restapi-calculator |
 | 6 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform |
 | 7 | Setup NoSQL Database for Account Service   | https://github.com/jrdalino/myproject-aws-dynamodb-account-service-terraform |
 | 8 | Setup Back End Acccount Service            | https://github.com/jrdalino/myproject-account-service-python |
@@ -43,21 +43,26 @@
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening | 
+| 2 | AWS Cloudtrail                             | https://github.com/jrdalino/aws-cloudtrail |
 | 2 | AWS KMS                                    | Add URL here |
 | 3 | AWS Secrets Manager                        | https://github.com/jrdalino/aws-secrets-manager |
 | 4 | AWS Certificate Manager                    | https://github.com/jrdalino/aws-certificate-manager |
-| 4 | AWS WAF                                    | Add URL here |
-| 5 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
-| 6 | OWASP Top 10                               | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
-| 7 | Backend Static Testing w/ Sonarqube        | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
-| 8 | Backend Dynamic Testing                    | Add URL here |
-| 9 | Frontend Static Testing                    | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
-| 10 | Frontend Dynamic Testing                   | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
+| 5 | AWS WAF                                    | Add URL here |
+| 6 | AWS GuardDuty                              | https://github.com/jrdalino/aws-guardduty |
+| 7 | AWS Delete Default VPC                     | 
+https://github.com/jrdalino/aws-delete-default-vpc |
+| 8 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
+| 9 | OWASP Top 10                               | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
+| 10 | Backend Static Testing w/ Sonarqube        | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
+| 11 | Backend Dynamic Testing                   | Add URL here |
+| 12 | Frontend Static Testing                   | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
+| 13 | Frontend Dynamic Testing                  | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
 
 ### Reliability
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS XRay                                   | https://github.com/jrdalino/myproject-aws-eks-xray-java |
+| 2 | Istio                                      | https://github.com/jrdalino/istio-notes |
 
 ###  Peformance Efficiency
 | Step | Description | URL |
@@ -73,6 +78,9 @@
 | ---- | ----------- | --- |
 | 1 | Tagging Standards                          | https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ |
 | 2 | AWS Cost Explorer                          | https://github.com/jrdalino/myproject-aws-cost-explorer |
+| 3 | AWS Budgets                                | https://github.com/jrdalino/aws-budgets |
+| 4 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
+| 5 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
 
 ###  Operational Excellience
@@ -82,3 +90,11 @@
 | 2 | Helm Install                               | https://github.com/jrdalino/myproject-kubernetes-helm-install |
 | 3 | EKS Dashboard                              | https://github.com/jrdalino/myproject-aws-eks-dashboard-kubectl |
 | 4 | CI/CD For IaaS                             | Add URL here |
+| 5 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions |
+| 6 | AWS Health                                 | https://github.com/jrdalino/aws-health |
+
+https://github.com/jrdalino/install-grafana-using-helm
+https://github.com/jrdalino/install-prometheus-using-helm
+
+
