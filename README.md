@@ -1,7 +1,7 @@
 # myproject-landing-page
 
 ## Prerequisites
-- https://github.com/jrdalino/myproject-prerequisites
+- https://github.com/jrdalino/development-environment-setup
 
 ## Phase 1: Discover
 - Business Model Canvas: https://docs.google.com/drawings/d/102mOZQmMxs0CslmNsPZ5KCNQwAIh9rh4baYgT0VWNAA/template/preview?usp=drive_web
