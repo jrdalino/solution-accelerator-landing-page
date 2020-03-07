@@ -16,12 +16,12 @@
 ## Phase 3: Pilot / MVP
 
 - Project Architecture
-- Busimess Metrics
+- Business Metrics
 - Service Levels
 - Infra Architecture Diagram
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
-- Steps
+### Steps
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/myproject-aws-tfstate-backend-terraform |
@@ -41,29 +41,29 @@
 - Naming Convention: < project >-< provider >-< service >-< language >
 
 ## Phase 4: Scale
-- Security and Governance
+### Security and Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening | 
 | 2 | AWS KMS                                    | Add URL here |
 | 3 | AWS WAF                                    | Add URL here |
 
-- Reliability
+### Reliability
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS XRay                                   | https://github.com/jrdalino/myproject-aws-eks-xray-java |
 
-- Peformance Efficiency
+###  Peformance Efficiency
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS CloudFront                             | Add URL here |
 
-- Cost Optimisation
+###  Cost Optimisation
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | TBD                                        | Add URL here |
 
-- Operational Excellience
+###  Operational Excellience
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Route 53                               | Add URL here |
