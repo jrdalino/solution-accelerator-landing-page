@@ -4,15 +4,24 @@
 - https://github.com/jrdalino/myproject-prerequisites
 
 ## Phase 1: Discover
+- Business Problem
+- Business Model Canvas: https://docs.google.com/drawings/d/102mOZQmMxs0CslmNsPZ5KCNQwAIh9rh4baYgT0VWNAA/template/preview?usp=drive_web
 
 ## Phase 2: Prototype
+- Storyboard
+- Wireframes
+- Mockups
+- POC
 
 ## Phase 3: Pilot / MVP
 
-### Architecture Diagram
+- Project Architecture
+- Busimess Metrics
+- Service Levels
+- Infra Architecture Diagram
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
-### Steps
+- Steps
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/myproject-aws-tfstate-backend-terraform |
@@ -29,18 +38,35 @@
 | 12 | Setup Front End (React)                   | https://github.com/jrdalino/myproject-web-service-react |
 | 13 | Setup CI/CD for Front End Web App         | https://github.com/jrdalino/myproject-web-service-codepipeline-terraform |
 
-### Notes
 - Naming Convention: < project >-< provider >-< service >-< language >
 
 ## Phase 4: Scale
+- Security and Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening | 
+| 2 | AWS KMS                                    | Add URL here |
+| 3 | AWS WAF                                    | Add URL here |
+
+- Reliability
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | AWS XRay                                   | https://github.com/jrdalino/myproject-aws-eks-xray-java |
+
+- Peformance Efficiency
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | AWS CloudFront                             | Add URL here |
+
+- Cost Optimisation
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | TBD                                        | Add URL here |
+
+- Operational Excellience
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | AWS Route 53                               | Add URL here |
 | 2 | Helm Install                               | https://github.com/jrdalino/myproject-kubernetes-helm-install |
 | 3 | Sonarqube Setup                            | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
 | 4 | EKS Dashboard                              | Add URL here |
-| 5 | AWS XRay                                   | https://github.com/jrdalino/myproject-aws-eks-xray-java |
-| 6 | AWS KMS                                    | Add URL here |
-| 7 | AWS WAF                                    | Add URL here |
-| 8 | AWS CloudFront                             | Add URL here |
-| 9 | AWS Route 53                               | Add URL here |
