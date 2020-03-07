@@ -23,7 +23,7 @@
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/myproject-aws-tfstate-backend-terraform |
-| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/myproject-aws-eks-terraform |
+| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/myproject-aws-eks-terraform & https://github.com/jrdalino/myproject-aws-eks-eksctl |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/myproject-aws-lambda-deploy-ecr-to-eks-nodejs |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform |
 | 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python |
