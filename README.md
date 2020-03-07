@@ -73,10 +73,11 @@
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS CloudFront                             | Add URL here |
-| 2 | AWS DynamoDB DAX                           | Add URL here |
-| 3 | AWS Elasticsearch                          | Add URL here |
-| 4 | AWS RDS                                    | Add URL here |
-| 5 | AWS ElastiCache                            | Add URL here |
+| 2 | AWS Route 53                               | Add URL here |
+| 3 | AWS DynamoDB DAX                           | Add URL here |
+| 4 | AWS Elasticsearch                          | Add URL here |
+| 5 | AWS RDS                                    | Add URL here |
+| 6 | AWS ElastiCache                            | Add URL here |
 
 ###  Cost Optimisation
 | Step | Description | URL |
@@ -84,19 +85,26 @@
 | 1 | Tagging Standards                          | https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ |
 | 2 | AWS Cost Explorer                          | https://github.com/jrdalino/myproject-aws-cost-explorer |
 | 3 | AWS Budgets                                | https://github.com/jrdalino/aws-budgets |
-| 4 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
-| 5 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
+| 4 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
 
-###  Operational Excellience
+###  Operational Excellence
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS Route 53                               | Add URL here |
-| 2 | Helm Install                               | https://github.com/jrdalino/myproject-kubernetes-helm-install |
-| 3 | EKS Dashboard                              | https://github.com/jrdalino/myproject-aws-eks-dashboard-kubectl |
-| 4 | CI/CD For IaaS                             | Add URL here |
-| 5 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
-| 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions |
-| 7 | AWS Health                                 | https://github.com/jrdalino/aws-health |
-| 8 | Install Grafana using Helm                 | https://github.com/jrdalino/install-grafana-using-helm |
-| 9 | Install Prometheus using Helm              | https://github.com/jrdalino/install-prometheus-using-helm |
+| 1 | AWS Organizations                          | Add URL here |
+| 2 | AWS Cloudwatch                             | Add URL here |
+| 3 | AWS AutoScaling                            | Add URL here |
+| 4 | EKS Cluster AutoScaling                    | Add URL here |
+| 5 | Kubernetes Horizontal Pod AutoScaler       | Add URL here |
+| 6 | AWS Config                                 | Add URL here |
+| 7 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
+| 8 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome |
+| 9 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
+| 10 | AWS Personal Health Dashboard             | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
+| 11 | AWS Health                                | https://github.com/jrdalino/aws-health |
+| 12 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 13 | CI/CD For IaaS                            | Add URL here |
+| 14 | Helm Install                              | https://github.com/jrdalino/myproject-kubernetes-helm-install |
+| 15 | EKS Dashboard                             | https://github.com/jrdalino/myproject-aws-eks-dashboard-kubectl |
+| 16 | Install Grafana using Helm                | https://github.com/jrdalino/install-grafana-using-helm |
+| 17 | Install Prometheus using Helm             | https://github.com/jrdalino/install-prometheus-using-helm |
