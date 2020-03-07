@@ -68,4 +68,4 @@
 | 1 | AWS Route 53                               | Add URL here |
 | 2 | Helm Install                               | https://github.com/jrdalino/myproject-kubernetes-helm-install |
 | 3 | Sonarqube Setup                            | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
-| 4 | EKS Dashboard                              | Add URL here |
+| 4 | EKS Dashboard                              | https://github.com/jrdalino/myproject-aws-eks-dashboard |
