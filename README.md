@@ -5,6 +5,8 @@
 
 ## Phase 1: Discover
 - Business Model Canvas: https://docs.google.com/drawings/d/102mOZQmMxs0CslmNsPZ5KCNQwAIh9rh4baYgT0VWNAA/template/preview?usp=drive_web
+- Functional
+- Non Functional Requirements
 
 ## Phase 2: Prototype
 - Storyboard
@@ -42,16 +44,18 @@
 ### Choose the Right Storage / Database Service
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS S3                                     | Add URL here |
-| 2 | AWS Glacier                                | Add URL here |
-| 3 | AWS EFS                                    | Add URL here |
-| 4 | AWS RDS                                    | Add URL here |
-| 5 | AWS DynamoDB                               | Add URL here |
-| 6 | AWS DynamoDB DAX                           | Add URL here |
-| 7 | AWS ElastiCache                            | Add URL here |
-| 7 | AWS Neptune                                | Add URL here |
-| 9 | AWS Redshift                               | Add URL here |
-| 10 | AWS Elasticsearch                         | Add URL here |
+| 1 | AWS ECR                                    | Add URL here |
+| 2 | AWS CodeCommit                             | Add URL here |
+| 3 | AWS S3                                     | Add URL here |
+| 4 | AWS Glacier                                | Add URL here |
+| 5 | AWS EFS                                    | Add URL here |
+| 6 | AWS RDS                                    | Add URL here |
+| 7 | AWS DynamoDB                               | Add URL here |
+| 8 | AWS DynamoDB DAX                           | Add URL here |
+| 9 | AWS ElastiCache                            | Add URL here |
+| 10 | AWS Neptune                               | Add URL here |
+| 11 | AWS Redshift                              | Add URL here |
+| 12 | AWS Elasticsearch                         | Add URL here |
 
 ### Security and Governance
 | Step | Description | URL |
