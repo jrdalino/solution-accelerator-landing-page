@@ -71,7 +71,9 @@
 ###  Cost Optimisation
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | TBD                                        | Add URL here |
+| 1 | Tagging Standards                          | https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ |
+| 2 | AWS Cost Explorer                          | https://github.com/jrdalino/myproject-aws-cost-explorer |
+
 
 ###  Operational Excellience
 | Step | Description | URL |
