@@ -97,7 +97,7 @@
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | Tagging Standards                          | https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ |
-| 2 | AWS Cost Explorer                          | https://github.com/jrdalino/myproject-aws-cost-explorer |
+| 2 | AWS Cost Explorer                          | https://github.com/jrdalino/aws-cost-explorer |
 | 3 | AWS Budgets                                | https://github.com/jrdalino/aws-budgets |
 | 4 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
