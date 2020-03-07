@@ -45,6 +45,7 @@
 | 1 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening | 
 | 2 | AWS KMS                                    | Add URL here |
 | 3 | AWS WAF                                    | Add URL here |
+| 4 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
 
 ### Reliability
 | Step | Description | URL |
