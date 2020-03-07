@@ -4,7 +4,6 @@
 - https://github.com/jrdalino/myproject-prerequisites
 
 ## Phase 1: Discover
-- Business Problem
 - Business Model Canvas: https://docs.google.com/drawings/d/102mOZQmMxs0CslmNsPZ5KCNQwAIh9rh4baYgT0VWNAA/template/preview?usp=drive_web
 
 ## Phase 2: Prototype
@@ -14,10 +13,9 @@
 - POC
 
 ## Phase 3: Pilot / MVP
-
-- Project Architecture
 - Business Metrics
 - Service Levels
+- Software Architecture
 - Infra Architecture Diagram
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
