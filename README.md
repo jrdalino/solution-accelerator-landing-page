@@ -23,15 +23,17 @@
 | 12 | Setup Front End (React)                   | https://github.com/jrdalino/myproject-web-service-react |
 | 13 | Setup CI/CD for Front End Web App         | https://github.com/jrdalino/myproject-web-service-codepipeline-terraform |
 
-# Nice to haves
-- https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening
-- https://github.com/jrdalino/myproject-kubernetes-helm-install
-- https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube
-- EKS Dashboard
-- https://github.com/jrdalino/myproject-aws-eks-xray-java
-- AWS WAF
-- AWS CloudFront
-- Route53
+## Nice to haves
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-organizations-multi-account-hardening | 
+| 2 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-kubernetes-helm-install |
+| 2 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-kubernetes-helm-sonarqube |
+| 3 | EKS Dashboard                              | Add URL here |
+| 2 | AWS Account Hardening                      | https://github.com/jrdalino/myproject-aws-eks-xray-java |
+| 2 | AWS WAF                                    | Add URL here |
+| 2 | AWS CloudFront                             | Add URL here |
+| 2 | AWS Route 53                               | Add URL here |
 
-# Appendix
+## Appendix
 - Naming Convention: < project >-< provider >-< service >-< language >
