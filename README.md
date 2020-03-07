@@ -118,7 +118,7 @@
 | 11 | AWS Health                                | https://github.com/jrdalino/aws-health |
 | 12 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
 | 13 | CI/CD For IaaS                            | Add URL here |
-| 14 | Helm Install                              | https://github.com/jrdalino/myproject-kubernetes-helm-install |
-| 15 | EKS Dashboard                             | https://github.com/jrdalino/myproject-aws-eks-dashboard-kubectl |
+| 14 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
+| 15 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
 | 16 | Install Grafana using Helm                | https://github.com/jrdalino/install-grafana-using-helm |
 | 17 | Install Prometheus using Helm             | https://github.com/jrdalino/install-prometheus-using-helm |
