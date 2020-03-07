@@ -84,7 +84,7 @@
 ### Reliability
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS XRay                                   | https://github.com/jrdalino/myproject-aws-eks-xray-java |
+| 1 | AWS XRay                                   | https://github.com/jrdalino/aws-eks-xray-java |
 | 2 | Istio                                      | https://github.com/jrdalino/istio-notes |
 
 ###  Performance Efficiency
