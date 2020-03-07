@@ -39,6 +39,20 @@
 - Naming Convention: < project >-< provider >-< service >-< language >
 
 ## Phase 4: Scale
+### Choose the Right Storage / Database Service
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | AWS S3                                     | Add URL here |
+| 2 | AWS Glacier                                | Add URL here |
+| 3 | AWS EFS                                    | Add URL here |
+| 4 | AWS RDS                                    | Add URL here |
+| 5 | AWS DynamoDB                               | Add URL here |
+| 6 | AWS DynamoDB DAX                           | Add URL here |
+| 7 | AWS ElastiCache                            | Add URL here |
+| 7 | AWS Neptune                                | Add URL here |
+| 9 | AWS Redshift                               | Add URL here |
+| 10 | AWS Elasticsearch                         | Add URL here |
+
 ### Security and Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
@@ -69,15 +83,11 @@
 | 1 | AWS XRay                                   | https://github.com/jrdalino/myproject-aws-eks-xray-java |
 | 2 | Istio                                      | https://github.com/jrdalino/istio-notes |
 
-###  Peformance Efficiency
+###  Performance Efficiency
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS CloudFront                             | Add URL here |
 | 2 | AWS Route 53                               | Add URL here |
-| 3 | AWS DynamoDB DAX                           | Add URL here |
-| 4 | AWS Elasticsearch                          | Add URL here |
-| 5 | AWS RDS                                    | Add URL here |
-| 6 | AWS ElastiCache                            | Add URL here |
 
 ###  Cost Optimisation
 | Step | Description | URL |
