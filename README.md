@@ -10,13 +10,13 @@
 - Storyboard
 - Wireframes
 - Mockups
-- POC
+- POC: https://github.com/jrdalino/aws-amplify-notes
 
 ## Phase 3: Pilot / MVP
 - Business Metrics
 - Service Levels
-- Software Architecture
-- Infra Architecture Diagram
+- Software Architecture: https://github.com/jrdalino/system-design-primer
+- Infra Architecture Diagram:
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
 ### Steps
