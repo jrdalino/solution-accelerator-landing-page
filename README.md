@@ -25,7 +25,7 @@
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
-| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-eks-terraform & https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/aws-vpc-terraform | For Checking |
+| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-eks-terraform & https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/aws-vpc-terraform | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs | For Checking |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | For Checking |
 | 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python & https://github.com/jrdalino/backend-python-flask-restapi-calculator | Not Yet Started |
