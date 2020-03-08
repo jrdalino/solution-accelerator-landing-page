@@ -108,17 +108,19 @@
 | 1 | AWS Organizations                          | Add URL here |
 | 2 | AWS Cloudwatch                             | Add URL here |
 | 3 | AWS AutoScaling                            | Add URL here |
-| 4 | EKS Cluster AutoScaling                    | Add URL here |
-| 5 | Kubernetes Horizontal Pod AutoScaler       | Add URL here |
-| 6 | AWS Config                                 | Add URL here |
-| 7 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
-| 8 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome |
-| 9 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
-| 10 | AWS Personal Health Dashboard             | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
-| 11 | AWS Health                                | https://github.com/jrdalino/aws-health |
-| 12 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
-| 13 | CI/CD For IaaS                            | Add URL here |
-| 14 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
-| 15 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
-| 16 | Install Grafana using Helm                | https://github.com/jrdalino/install-grafana-using-helm |
-| 17 | Install Prometheus using Helm             | https://github.com/jrdalino/install-prometheus-using-helm |
+| 4 | EKS Cluster AutoScaling                    | https://github.com/jrdalino/kubernetes-autoscaling |
+| 5 | Kubernetes Horizontal Pod AutoScaler       | https://github.com/jrdalino/kubernetes-autoscaling |
+| 6 | Kubernetes Liveness Probes                 | https://github.com/jrdalino/kubernetes-liveness-probes |
+| 7 | Kubernetes Readiness Probes                | https://github.com/jrdalino/kubernetes-readiness-probes |
+| 8 | AWS Config                                 | Add URL here |
+| 9 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
+| 10 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome |
+| 11 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
+| 12 | AWS Personal Health Dashboard             | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
+| 13 | AWS Health                                | https://github.com/jrdalino/aws-health |
+| 14 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 15 | CI/CD For IaaS                            | Add URL here |
+| 16 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
+| 17 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
+| 18 | Install Grafana using Helm                | https://github.com/jrdalino/install-grafana-using-helm |
+| 19 | Install Prometheus using Helm             | https://github.com/jrdalino/install-prometheus-using-helm |
