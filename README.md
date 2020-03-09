@@ -28,7 +28,7 @@
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-eks-terraform & https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs | For Checking |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python & https://github.com/jrdalino/backend-python-flask-restapi-calculator | Not Yet Started |
+| 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python & https://github.com/jrdalino/backend-python-flask-restapi-calculator | For Checking |
 | 6 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | For Checking |
 | 7 | Setup NoSQL Database for Account Service   | https://github.com/jrdalino/myproject-aws-dynamodb-account-service-terraform | Not Yet Started |
 | 8 | Setup Back End Acccount Service            | https://github.com/jrdalino/myproject-account-service-python | Not Yet Started |
