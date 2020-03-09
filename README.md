@@ -25,7 +25,7 @@
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
-| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-eks-terraform & https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/aws-vpc-terraform | Done |
+| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-eks-terraform & https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs | For Checking |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python & https://github.com/jrdalino/backend-python-flask-restapi-calculator | Not Yet Started |
@@ -33,8 +33,8 @@
 | 7 | Setup NoSQL Database for Account Service   | https://github.com/jrdalino/myproject-aws-dynamodb-account-service-terraform | Not Yet Started |
 | 8 | Setup Back End Acccount Service            | https://github.com/jrdalino/myproject-account-service-python | Not Yet Started |
 | 9 | Setup CI/CD for Account Service            | https://github.com/jrdalino/myproject-aws-codepipeline-account-service-terraform | Not Yet Started |
-| 10 | Setup Cognito                             | https://github.com/jrdalino/aws-cognito-terraform | Done |
-| 11 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform | Ongoing |
+| 10 | Setup Cognito                             | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 11 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Ongoing |
 | 12 | Setup Front End (React)                   | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
 | 13 | Setup CI/CD for Front End Web App         | https://github.com/jrdalino/myproject-web-service-codepipeline-terraform | Not Yet Started |
 
@@ -51,11 +51,9 @@
 | 5 | AWS EFS                                    | Add URL here |
 | 6 | AWS RDS                                    | Add URL here |
 | 7 | AWS DynamoDB                               | https://github.com/jrdalino/aws-dynamodb-terraform |
-| 8 | AWS DynamoDB DAX                           | Add URL here |
-| 9 | AWS ElastiCache                            | Add URL here |
-| 10 | AWS Neptune                               | Add URL here |
-| 11 | AWS Redshift                              | Add URL here |
-| 12 | AWS Elasticsearch                         | Add URL here |
+| 8 | AWS Neptune                                | Add URL here |
+| 9 | AWS Redshift                               | Add URL here |
+| 10 | AWS Elasticsearch                         | Add URL here |
 
 ### Security and Governance
 | Step | Description | URL |
@@ -64,10 +62,10 @@
 | 2 | AWS Account Hardening                      | https://github.com/jrdalino/aws-organizations-multi-account-hardening |
 | 3 | AWS Cloudtrail                             | https://github.com/jrdalino/aws-cloudtrail |
 | 4 | AWS Delete Default VPC                     | https://github.com/jrdalino/aws-delete-default-vpc |
-| 5 | AWS Secrets Manager                        | https://github.com/jrdalino/aws-secrets-manager |
+| 5 | AWS Secrets Manager, Parameter Store       | https://github.com/jrdalino/aws-secrets-manager |
 | 6 | AWS Inspector                              | Add URL here |
 | 7 | AWS Macie                                  | Add URL here |
-| 8 | AWS Certificate Manager                    | https://github.com/jrdalino/aws-certificate-manager |
+| 8 | AWS Certificate Manager                    | SSL/TLS using AWS Certificate Manager https://github.com/jrdalino/aws-certificate-manager |
 | 9 | AWS KMS                                    | Add URL here |
 | 10 | AWS WAF                                   | Add URL here |
 | 11 | AWS Firewall Manager                      | Add URL here |
@@ -77,21 +75,36 @@
 | 15 | OWASP Top 10                              | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
 | 16 | AWS GuardDuty                             | https://github.com/jrdalino/aws-guardduty |
 | 17 | Backend Static Testing w/ Sonarqube       | https://github.com/jrdalino/kubernetes-helm-sonarqube |
-| 18 | Backend Dynamic Testing                   | Add URL here |
+| 18 | Backend Dynamic Testing                   | Container Scanning w/ Anchore Engine / Aqua Microscanner / Clair / Dagda / Twistlock |
 | 19 | Frontend Static Testing                   | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
 | 20 | Frontend Dynamic Testing                  | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
+| 21 | Check for commited secrets on Git Repo    | https://github.com/awslabs/git-secrets & https://github.com/zricethezav/gitleaks |
 
 ### Reliability
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS XRay                                   | https://github.com/jrdalino/aws-eks-xray-java |
-| 2 | Istio                                      | https://github.com/jrdalino/istio-notes |
+| 1 | Install Grafana using Helm                 | https://github.com/jrdalino/install-grafana-using-helm |
+| 2 | Deploy monitoring using Prometheus         | https://github.com/jrdalino/install-prometheus-using-helm |
+| 3 | Instrumentation w/ AWS XRay, Zipkin, Opentracing | https://github.com/jrdalino/aws-eks-xray-java |
+| 4 | Service Discovery w/ Consul, AWS CloudMap  | Add URL here | 
+| 5 | Service Mesh w/ Istio or AWS Appmesh       | https://github.com/jrdalino/istio-notes |
+| 6 | Alerting w/ AlertManager, PagerDuty, Slack | Add URL here | 
+| 7 | Logging w/ ElastiSearch, Fluentd, Kibana   | https://github.com/jrdalino/elasticsearch-fluentd-kibana |
 
 ###  Performance Efficiency
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS CloudFront                             | Add URL here |
-| 2 | AWS Route 53                               | Add URL here |
+| 2 | AWS Route 53                               | Register/Transfer Domain Name using Route 53 for CloudFront CDN |
+| 3 | RDS Read Replica                           | Add URL here |
+| 4 | AWS DynamoDB DAX                           | Add URL here |
+| 5 | AWS ElastiCache (Redis)                    | Add URL here |
+| 6 | EKS Cluster AutoScaling                    | https://github.com/jrdalino/kubernetes-autoscaling |
+| 7 | Kubernetes Horizontal Pod AutoScaler       | https://github.com/jrdalino/kubernetes-autoscaling |
+| 8 | Kubernetes Liveness Probes                 | https://github.com/jrdalino/kubernetes-liveness-probes |
+| 9 | Kubernetes Readiness Probes                | https://github.com/jrdalino/kubernetes-readiness-probes |
+| 10 | AI Ops                                    | Predictive Autoscaling for Kubernetes using Prometheus + Amazon SageMaker |
+| 11 | Load Testing w/ Locust JMeter             | Add URL here |
 
 ###  Cost Optimisation
 | Step | Description | URL |
@@ -101,26 +114,22 @@
 | 3 | AWS Budgets                                | https://github.com/jrdalino/aws-budgets |
 | 4 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
-
 ###  Operational Excellence
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Organizations                          | Add URL here |
 | 2 | AWS Cloudwatch                             | Add URL here |
 | 3 | AWS AutoScaling                            | Add URL here |
-| 4 | EKS Cluster AutoScaling                    | https://github.com/jrdalino/kubernetes-autoscaling |
-| 5 | Kubernetes Horizontal Pod AutoScaler       | https://github.com/jrdalino/kubernetes-autoscaling |
-| 6 | Kubernetes Liveness Probes                 | https://github.com/jrdalino/kubernetes-liveness-probes |
-| 7 | Kubernetes Readiness Probes                | https://github.com/jrdalino/kubernetes-readiness-probes |
-| 8 | AWS Config                                 | Add URL here |
-| 9 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
-| 10 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome |
-| 11 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
-| 12 | AWS Personal Health Dashboard             | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
-| 13 | AWS Health                                | https://github.com/jrdalino/aws-health |
-| 14 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
-| 15 | CI/CD For IaaS                            | Add URL here |
-| 16 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
-| 17 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
-| 18 | Install Grafana using Helm                | https://github.com/jrdalino/install-grafana-using-helm |
-| 19 | Install Prometheus using Helm             | https://github.com/jrdalino/install-prometheus-using-helm |
+| 4 | AWS Config                                 | Add URL here |
+| 5 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
+| 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome |
+| 7 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
+| 8 | AWS Personal Health Dashboard              | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
+| 9 | AWS Health                                 | https://github.com/jrdalino/aws-health |
+| 10 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 11 | CI/CD For IaaS                            | Add URL here |
+| 12 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
+| 13 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
+| 14 | CI/CD for IaaS                            | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
+
+
