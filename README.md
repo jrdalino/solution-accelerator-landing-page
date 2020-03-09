@@ -1,4 +1,4 @@
-# myproject-landing-page
+# Solution Accelerator Home
 
 ## Prerequisites
 - https://github.com/jrdalino/development-environment-setup
