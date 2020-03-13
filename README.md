@@ -25,8 +25,8 @@
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
-| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-eks-terraform & https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops | Done |
-| 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs | For Checking |
+| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
+| 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
 | 6 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | For Checking |
@@ -131,3 +131,6 @@
 | 12 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
 | 13 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
 | 14 | CI/CD for IaaS                            | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
+
+## Appendix
+- Kubernetes: https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops
