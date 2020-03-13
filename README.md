@@ -27,16 +27,14 @@
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
+
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
 | 6 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | For Checking |
-| 7 | Setup NoSQL Database for Account Service   | https://github.com/jrdalino/myproject-aws-dynamodb-account-service-terraform | Not Yet Started |
-| 8 | Setup Back End Acccount Service            | https://github.com/jrdalino/myproject-account-service-python | Not Yet Started |
-| 9 | Setup CI/CD for Account Service            | https://github.com/jrdalino/myproject-aws-codepipeline-account-service-terraform | Not Yet Started |
-| 10 | Setup Cognito                             | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 11 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Ongoing |
-| 12 | Setup Front End (React)                   | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
-| 13 | Setup CI/CD for Front End Web App         | https://github.com/jrdalino/myproject-web-service-codepipeline-terraform | Not Yet Started |
+| 7 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 8 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Not Yet Started |
+| 9 | Setup Cognito                              | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 10 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Ongoing |
 
 - Naming Convention: < project >-< provider >-< service >-< language >
 
