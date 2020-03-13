@@ -28,7 +28,7 @@
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 5 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | For Checking |
+| 5 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
 | 6 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
 | 7 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Not Yet Started |
 | 8 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
