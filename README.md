@@ -30,7 +30,7 @@
 | 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 5 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
 | 6 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 7 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Not Yet Started |
+| 7 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
 | 8 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
 | 9 | Setup Cognito                              | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
 | 10 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Ongoing |
