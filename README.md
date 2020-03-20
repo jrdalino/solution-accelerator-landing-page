@@ -129,5 +129,10 @@
 | 13 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
 | 14 | CI/CD for IaaS                            | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
 
+### Application Integration
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | AWS SQS                                    | https://github.com/jrdalino/aws-sqs-terraform |
+
 ## Appendix
 - Kubernetes: https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops
