@@ -137,7 +137,7 @@
 ### Misc
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | Tracing using AWS X-Ray                    | https://github.com/jrdalino/aws-sqs-terraform |
+| 1 | Tracing using AWS X-Ray                    | https://github.com/jrdalino/aws-xray-terraform |
 | 2 | Circuit Breaker Pattern                    | https://pypi.org/project/pybreaker/ |
 
 ## Appendix
