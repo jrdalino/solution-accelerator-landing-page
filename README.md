@@ -134,5 +134,11 @@
 | ---- | ----------- | --- |
 | 1 | AWS SQS                                    | https://github.com/jrdalino/aws-sqs-terraform |
 
+### Misc
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | Tracing using AWS X-Ray                    | https://github.com/jrdalino/aws-sqs-terraform |
+| 2 | Circuit Breaker Pattern                    | https://pypi.org/project/pybreaker/ |
+
 ## Appendix
 - Kubernetes: https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops
