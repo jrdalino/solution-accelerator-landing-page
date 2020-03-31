@@ -27,13 +27,14 @@
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 4 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 5 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
-| 6 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 7 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
-| 8 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
-| 9 | Setup Cognito                              | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 10 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
+| 4 | Tracing using AWS X-Ray                    | https://github.com/jrdalino/aws-xray-terraform | Not Done |
+| 5 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
+| 6 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
+| 7 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
+| 8 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
+| 9 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 10 | Setup Cognito                              | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 11 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
 
 - Naming Convention: < project >-< provider >-< service >-< language >
 
@@ -137,8 +138,7 @@
 ### Misc
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | Tracing using AWS X-Ray                    | https://github.com/jrdalino/aws-xray-terraform |
-| 2 | Circuit Breaker Pattern                    | https://pypi.org/project/pybreaker/ |
+| 1 | Circuit Breaker Pattern                    | https://pypi.org/project/pybreaker/ |
 
 ## Appendix
 - Kubernetes: https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops
