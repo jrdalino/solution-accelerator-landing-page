@@ -65,8 +65,8 @@
 | 5.2 | Supplier Frontend w /LB | To follow | None |
 | 6.1 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
 | 6.2 | Customer Frontend w/ LB | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
-| 7.1 | Customer ReactNtv CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
-| 7.2 | Customer ReactNtv App   | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 7.1 | Customer ReactNtv CI/CD | To follow | None |
+| 7.2 | Customer ReactNtv App   | To follow | None |
 | 8.1 | Cart Svc Redis          | To follow | None |
 | 8.2 | Cart Svc CI/CD          | To follow | None |
 | 8.3 | Cart Svc API            | To follow | None |
