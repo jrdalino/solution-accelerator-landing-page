@@ -19,23 +19,6 @@
 - Service Levels
 - Software Architecture: https://github.com/jrdalino/system-design-primer
 
-
-### Minimum Viable Pilot - Infra
-- Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
-- TODO: Service Mesh (App Mesh/Istio) and Service Discovery (Cloud Map)
-![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
-
-
-
-| Step | Description | URL | Status |
-| ---- | ----------- | --- | ------ |
-| 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
-| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
-| 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 4 | Setup Cognito for Identity and AuthN      | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 5 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
-
-
 ### Minimum Viable Pilot - Microservices
 - Application Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
 
@@ -53,6 +36,19 @@
 | 8 | Setup Back End Product Service             | https://github.com/jrdalino/myproject-customer-service-python | Done |
 
 - Naming Convention: < project >-< provider >-< service >-< language >
+
+### Minimum Viable Pilot - Infra
+- Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
+- TODO: Service Mesh (App Mesh/Istio) and Service Discovery (Cloud Map)
+![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
+
+| Step | Description | URL | Status |
+| ---- | ----------- | --- | ------ |
+| 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
+| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
+| 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
+| 4 | Setup Cognito for Identity and AuthN      | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 5 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
 
 ## Phase 4: Scale
 ### Choose the Right Storage / Database Service
