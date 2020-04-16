@@ -21,20 +21,27 @@
 - Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
-### Minimum Viable Pilot (MVP)
+### Minimum Viable Pilot - Infra
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 4 | Tracing using AWS X-Ray                    | https://github.com/jrdalino/aws-xray-python | Not Done |
-| 5 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 6 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
-| 7 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 8 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
-| 9 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
-| 10 | Setup Cognito                              | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 11 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
+| 4 | Setup Cognito for Identity and AuthN      | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 5 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
+
+### Minimum Viable Pilot - Microservices
+| Step | Description | URL | Status |
+| ---- | ----------- | --- | ------ |
+| 1 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
+| 2 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 3 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
+| 4 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
+| 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
+| 6 | Setup NoSQL Database for Product Service   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
+| 7 |Setup CI/CD for Product Service             | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
+| 8 | Setup Back End Product Service             | https://github.com/jrdalino/myproject-customer-service-python | Done |
+
 
 - Naming Convention: < project >-< provider >-< service >-< language >
 
@@ -113,22 +120,30 @@
 | 4 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
 ###  Operational Excellence
+#### Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Organizations                          | Add URL here |
-| 2 | AWS Cloudwatch                             | Add URL here |
+| 2 | AWS Cloudtrail                             | Add URL here |
 | 3 | AWS AutoScaling                            | Add URL here |
 | 4 | AWS Config                                 | Add URL here |
 | 5 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
-| 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome |
-| 7 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
-| 8 | AWS Personal Health Dashboard              | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
-| 9 | AWS Health                                 | https://github.com/jrdalino/aws-health |
-| 10 | AWS Infrastructure Event Management       | https://github.com/jrdalino/aws-infrastructure-event-management |
-| 11 | CI/CD For IaaS                            | Add URL here |
-| 12 | Helm Install                              | https://github.com/jrdalino/kubernetes-helm-install |
-| 13 | EKS Dashboard                             | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
-| 14 | CI/CD for IaaS                            | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
+| 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome | |
+| 7 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 8 | CI/CD For IaaS                             | Add URL here |
+| 9 | Helm Install                               | https://github.com/jrdalino/kubernetes-helm-install |
+| 10 | CI/CD for IaaS                            | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
+
+#### Observability
+| Step | Description | URL |
+| ---- | ----------- | --- |
+| 1 | EKS Dashboard                              | https://github.com/jrdalino/aws-eks-dashboard-kubectl |
+| 2 | AWS Cloudwatch (Observability: Metrics)    | Add URL here |
+| 3 | AWS Cloudwatch (Observability: Logs)       | Add URL here |
+| 4 | AWS X-Ray (Observability: Traces)          | https://github.com/jrdalino/aws-xray-python |
+| 5 | AWS Service Health Dashboard               | https://status.aws.amazon.com/ |
+| 6 | AWS Personal Health Dashboard              | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
+| 7 | AWS Health                                 | https://github.com/jrdalino/aws-health |
 
 ### Application Integration
 | Step | Description | URL |
