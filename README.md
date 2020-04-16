@@ -32,13 +32,15 @@
 | 4 | Lambda to EKS                  | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
 | 5 | Cognito Identity & AuthN       | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
 | 6 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
-| 7 | Metrics: Prometheus + Grafana  | To follow | None |
-| 8 | Logging: ES + FluentD + Kibana | To follow | None |
-| 9 | Tracing: OpenTelemetry         | To follow | None |
-| 10 | Service Mesh: Istio           | To follow | None |
-| 11.1 | Load Generator CI/CD Locust | To follow | None |
-| 11.2 | Load Generator Scripts      | To follow | None |
-| 12 | Policy: OpenPolicyAgent       | To follow | None |
+| 7 | DNS: Route53                   | To follow | None |
+| 8 | CDN: CloudFront                | To follow | None |
+| 9 | Metrics: Prometheus + Grafana  | To follow | None |
+| 10 | Logging: ES + FluentD + Kibana| To follow | None |
+| 11 | Tracing: OpenTelemetry        | To follow | None |
+| 12 | Service Mesh: Istio           | To follow | None |
+| 13.1 | Load Generator CI/CD Locust | To follow | None |
+| 13.2 | Load Generator Scripts      | To follow | None |
+| 14 | Policy: OpenPolicyAgent       | To follow | None |
 
 ### Minimum Viable Pilot - Microservices
 - Application Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
