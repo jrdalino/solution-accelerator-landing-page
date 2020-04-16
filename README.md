@@ -21,13 +21,7 @@
 
 ### Minimum Viable Pilot - Microservices
 - Application Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
-
-![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png#center)
-
-img[src*='#center'] { 
-    display: block;
-    margin: auto;
-}
+![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
