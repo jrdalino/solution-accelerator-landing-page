@@ -39,6 +39,8 @@
 
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
+- TODO: Service Mesh (App Mesh/Istio) and Service Discovery (Cloud Map)
+
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
