@@ -43,9 +43,9 @@
 | 3 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 4 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
 | 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 6 | Setup NoSQL Database for Product Service   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 7 |Setup CI/CD for Product Service             | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
-| 8 | Setup Back End Product Service             | https://github.com/jrdalino/myproject-customer-service-python | Done |
+| 6 | Setup NoSQL Database for Product Service   | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | Not yet |
+| 7 |Setup CI/CD for Product Service             | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | Not yet |
+| 8 | Setup Back End Product Service             | https://github.com/jrdalino/myproject-product-service-python | Done |
 
 - Naming Convention: < project >-< provider >-< service >-< language >
 
