@@ -22,6 +22,7 @@
 
 ### Minimum Viable Pilot - Infra
 - Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
+
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
 | Step | Description | URL | Status |
@@ -34,7 +35,8 @@
 
 
 ### Minimum Viable Pilot - Microservices
-- Application Architecture Diagram
+- Application Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
+
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
 | Step | Description | URL | Status |
