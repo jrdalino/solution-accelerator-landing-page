@@ -22,8 +22,10 @@
 
 ### Minimum Viable Pilot - Infra
 - Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
-
+- TODO: Service Mesh (App Mesh/Istio) and Service Discovery (Cloud Map)
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
+
+
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
@@ -39,8 +41,6 @@
 
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
-- TODO: Service Mesh (App Mesh/Istio) and Service Discovery (Cloud Map)
-
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
@@ -51,7 +51,6 @@
 | 6 | Setup NoSQL Database for Product Service   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 7 |Setup CI/CD for Product Service             | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
 | 8 | Setup Back End Product Service             | https://github.com/jrdalino/myproject-customer-service-python | Done |
-
 
 - Naming Convention: < project >-< provider >-< service >-< language >
 
