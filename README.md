@@ -26,11 +26,11 @@
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
-| 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
-| 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
-| 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 4 | Setup Cognito for Identity and AuthN       | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 5 | API Gateway and VPC Link                   | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
+| 1 | Terraform State Backend   | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
+| 2 | VPC & EKS Cluster         | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
+| 3 | Lambda to EKS             | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
+| 4 | Cognito Identity & AuthN  | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 5 | API Gateway and VPC Link  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
 
 ### Minimum Viable Pilot - Microservices
 - Application Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
@@ -53,40 +53,41 @@
 ### Choose the Right Storage / Database Service
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS ECR                                    | https://github.com/jrdalino/aws-ecr-terraform |
-| 2 | AWS CodeCommit                             | https://github.com/jrdalino/aws-codecommit-terraform |
-| 3 | AWS S3                                     | https://github.com/jrdalino/aws-s3-terraform |
-| 4 | AWS Glacier                                | Add URL here |
-| 5 | AWS EFS                                    | Add URL here |
-| 6 | AWS RDS                                    | Add URL here |
-| 7 | AWS DynamoDB                               | https://github.com/jrdalino/aws-dynamodb-terraform |
-| 8 | AWS Neptune                                | Add URL here |
-| 9 | AWS Redshift                               | Add URL here |
-| 10 | AWS Elasticsearch                         | Add URL here |
+| 1 | AWS ECR                   | https://github.com/jrdalino/aws-ecr-terraform |
+| 2 | AWS CodeCommit            | https://github.com/jrdalino/aws-codecommit-terraform |
+| 3 | AWS S3                    | https://github.com/jrdalino/aws-s3-terraform |
+| 4 | AWS Glacier               | Add URL here |
+| 5 | AWS EFS                   | Add URL here |
+| 6 | AWS RDS                   | Add URL here |
+| 7 | AWS DynamoDB              | https://github.com/jrdalino/aws-dynamodb-terraform |
+| 8 | AWS Neptune               | Add URL here |
+| 9 | AWS Redshift              | Add URL here |
+| 10 | AWS Elasticsearch        | Add URL here |
+| 11 | AWS SQS                  | https://github.com/jrdalino/aws-sqs-terraform |
 
 ### Security and Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | Zero Trust Model                           | https://github.com/jrdalino/zero-trust-model-notes |
-| 2 | AWS Account Hardening                      | https://github.com/jrdalino/aws-organizations-multi-account-hardening |
-| 3 | AWS Cloudtrail                             | https://github.com/jrdalino/aws-cloudtrail |
-| 4 | AWS Delete Default VPC                     | https://github.com/jrdalino/aws-delete-default-vpc |
-| 5 | AWS Secrets Manager, Parameter Store       | https://github.com/jrdalino/aws-secrets-manager |
-| 6 | AWS Inspector                              | Add URL here |
-| 7 | AWS Macie                                  | Add URL here |
-| 8 | AWS Certificate Manager                    | SSL/TLS using AWS Certificate Manager https://github.com/jrdalino/aws-certificate-manager |
-| 9 | AWS KMS                                    | Add URL here |
-| 10 | AWS WAF                                   | Add URL here |
-| 11 | AWS Firewall Manager                      | Add URL here |
-| 12 | AWS Artifact                              | Add URL here |
-| 13 | AWS Security Hub                          | Add URL here |
-| 14 | AWS Detective                             | Add URL here |
-| 15 | OWASP Top 10                              | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
-| 16 | AWS GuardDuty                             | https://github.com/jrdalino/aws-guardduty |
+| 1 | Zero Trust Model          | https://github.com/jrdalino/zero-trust-model-notes |
+| 2 | AWS Account Hardening     | https://github.com/jrdalino/aws-organizations-multi-account-hardening |
+| 3 | AWS Cloudtrail            | https://github.com/jrdalino/aws-cloudtrail |
+| 4 | AWS Delete Default VPC    | https://github.com/jrdalino/aws-delete-default-vpc |
+| 5 | AWS Secrets, Parameters   | https://github.com/jrdalino/aws-secrets-manager |
+| 6 | AWS Inspector             | Add URL here |
+| 7 | AWS Macie                 | Add URL here |
+| 8 | AWS Certificate Manager   | SSL/TLS using AWS Certificate Mgr https://github.com/jrdalino/aws-certificate-manager |
+| 9 | AWS KMS                   | Add URL here |
+| 10 | AWS WAF                  | Add URL here |
+| 11 | AWS Firewall Manager     | Add URL here |
+| 12 | AWS Artifact             | Add URL here |
+| 13 | AWS Security Hub         | Add URL here |
+| 14 | AWS Detective            | Add URL here |
+| 15 | OWASP Top 10             | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
+| 16 | AWS GuardDuty            | https://github.com/jrdalino/aws-guardduty |
 | 17 | Backend Static Testing w/ Sonarqube       | https://github.com/jrdalino/kubernetes-helm-sonarqube |
-| 18 | Backend Dynamic Testing                   | Container Scanning w/ Anchore Engine / Aqua Microscanner / Clair / Dagda / Twistlock |
-| 19 | Frontend Static Testing                   | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
-| 20 | Frontend Dynamic Testing                  | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
+| 18 | Backend Dynamic Testing  | Container Scanning w/ Anchore Engine / Aqua Microscanner / Clair / Dagda / Twistlock |
+| 19 | Frontend Static Testing  | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
+| 20 | Frontend Dynamic Testing | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
 | 21 | Check for commited secrets on Git Repo    | https://github.com/awslabs/git-secrets & https://github.com/zricethezav/gitleaks |
 
 ### Reliability
@@ -112,7 +113,7 @@
 | 7 | Kubernetes Horizontal Pod AutoScaler       | https://github.com/jrdalino/kubernetes-autoscaling |
 | 8 | Kubernetes Liveness Probes                 | https://github.com/jrdalino/kubernetes-liveness-probes |
 | 9 | Kubernetes Readiness Probes                | https://github.com/jrdalino/kubernetes-readiness-probes |
-| 10 | AI Ops                                    | Predictive Autoscaling for Kubernetes using Prometheus + Amazon SageMaker |
+| 10 | AI Ops                                    | Predictive Autoscaling for Kubernetes w/ Prometheus + Amazon SageMaker |
 | 11 | Load Testing w/ Locust JMeter             | Add URL here |
 
 ###  Cost Optimisation
@@ -149,15 +150,7 @@
 | 6 | AWS Personal Health Dashboard              | https://phd.aws.amazon.com/phd/home#/dashboard/open-issues |
 | 7 | AWS Health                                 | https://github.com/jrdalino/aws-health |
 
-### Application Integration
-| Step | Description | URL |
-| ---- | ----------- | --- |
-| 1 | AWS SQS                                    | https://github.com/jrdalino/aws-sqs-terraform |
-
-### Misc
-| Step | Description | URL |
-| ---- | ----------- | --- |
-| 1 | Circuit Breaker Pattern                    | https://pypi.org/project/pybreaker/ |
-
 ## Appendix
 - Kubernetes: https://github.com/jrdalino/aws-eks-eksctl & https://github.com/jrdalino/azure-aks-azcli & https://github.com/jrdalino/kubernetes-cluster-build & https://github.com/jrdalino/single-master-kubernetes-cluster & https://github.com/jrdalino/multi-master-kubernetes-cluster-kops
+- https://github.com/GoogleCloudPlatform/microservices-demo
+- https://github.com/aws-samples/reinvent2018-dev303-code
