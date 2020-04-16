@@ -29,8 +29,8 @@
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
 | 2 | Set up VPC & EKS Cluster                   | https://github.com/jrdalino/aws-vpc-terraform & https://github.com/jrdalino/aws-eks-terraform | Done |
 | 3 | Set up Lambda to EKS                       | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 4 | Setup Cognito for Identity and AuthN      | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 5 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
+| 4 | Setup Cognito for Identity and AuthN       | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
+| 5 | API Gateway and VPC Link                   | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
 
 ### Minimum Viable Pilot - Microservices
 - Application Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
@@ -38,14 +38,14 @@
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
-| 1 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
-| 2 | Setup Front End Webapp Service (React)     | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
-| 3 | Setup NoSQL Database for Customer Service  | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 4 |Setup CI/CD for Customer Service            | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
-| 5 | Setup Back End Customer Service            | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 6 | Setup NoSQL Database for Product Service   | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | Not yet |
-| 7 |Setup CI/CD for Product Service             | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | Not yet |
-| 8 | Setup Back End Product Service             | https://github.com/jrdalino/myproject-product-service-python | Done |
+| 1 | Front End Webapp CI/CD    | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
+| 2 | Front End Webapp (React)  | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 3 | Customer Service NoSQL DB | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
+| 4 | Customer Service CI/CD    | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
+| 5 | Customer Service API      | https://github.com/jrdalino/myproject-customer-service-python | Done |
+| 6 | Product Service NoSQL DB  | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | None |
+| 7 | Product Service CI/CD     | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | None |
+| 8 | Product Service API       | https://github.com/jrdalino/myproject-product-service-python | Done |
 
 - Naming Convention: < project >-< provider >-< service >-< language >
 
