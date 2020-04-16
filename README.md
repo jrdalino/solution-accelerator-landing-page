@@ -91,7 +91,7 @@
 - Naming Convention: < project >-< provider >-< service >-< language >
 
 ## Phase 4: Scale
-### Choose the Right Storage / Database Service
+### Choose a data store
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS ECR                   | https://github.com/jrdalino/aws-ecr-terraform |
@@ -105,6 +105,12 @@
 | 9 | AWS Redshift              | Add URL here |
 | 10 | AWS Elasticsearch        | Add URL here |
 | 11 | AWS SQS                  | https://github.com/jrdalino/aws-sqs-terraform |
+
+### Choose a compute service
+
+### Choose a load balancing service
+
+### Choose a messaging service
 
 ### Security and Governance
 | Step | Description | URL |
