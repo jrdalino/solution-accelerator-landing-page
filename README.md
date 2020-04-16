@@ -18,10 +18,12 @@
 - Business Metrics
 - Service Levels
 - Software Architecture: https://github.com/jrdalino/system-design-primer
+
+
+### Minimum Viable Pilot - Infra
 - Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
-### Minimum Viable Pilot - Infra
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Set up Terraform State Backend             | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
@@ -30,7 +32,11 @@
 | 4 | Setup Cognito for Identity and AuthN      | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
 | 5 | API Gateway and VPC Link                  | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
 
+
 ### Minimum Viable Pilot - Microservices
+- Application Architecture Diagram
+![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
+
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | Setup CI/CD for Front End Webapp Service   | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
