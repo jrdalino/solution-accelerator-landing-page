@@ -117,7 +117,7 @@
 | ---- | ----------- | --- |
 | 1 | Zero Trust Model          | https://github.com/jrdalino/zero-trust-model-notes |
 | 2 | AWS Account Hardening     | https://github.com/jrdalino/aws-organizations-multi-account-hardening |
-| 3 | AWS Cloudtrail            | https://github.com/jrdalino/aws-cloudtrail |
+| 3 | AWS Cloudtrail            | https://github.com/jrdalino/aws-cloudtrail-terraform |
 | 4 | AWS Delete Default VPC    | https://github.com/jrdalino/aws-delete-default-vpc |
 | 5 | AWS Secrets, Parameters   | https://github.com/jrdalino/aws-secrets-manager |
 | 6 | AWS Inspector             | Add URL here |
