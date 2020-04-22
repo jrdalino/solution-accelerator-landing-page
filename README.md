@@ -176,15 +176,14 @@
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | AWS Organizations                          | Add URL here |
-| 2 | AWS Cloudtrail                             | Add URL here |
-| 3 | AWS AutoScaling                            | Add URL here |
-| 4 | AWS Config                                 | Add URL here |
-| 5 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
-| 6 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome | |
-| 7 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
-| 8 | CI/CD For IaaS                             | Add URL here |
-| 9 | Helm Install                               | https://github.com/jrdalino/kubernetes-helm-install |
-| 10 | CI/CD for IaaS                            | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
+| 2 | AWS AutoScaling                            | Add URL here |
+| 3 | AWS Config                                 | Add URL here |
+| 4 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
+| 5 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome | |
+| 6 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 7 | CI/CD For IaaS                             | Add URL here |
+| 8 | Helm Install                               | https://github.com/jrdalino/kubernetes-helm-install |
+| 9 | CI/CD for IaaS                             | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
 
 #### Observability
 | Step | Description | URL |
