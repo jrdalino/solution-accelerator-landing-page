@@ -115,34 +115,40 @@
 ### Security and Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | Zero Trust Model          | https://github.com/jrdalino/zero-trust-model-notes |
-| 2 | AWS Account Hardening     | https://github.com/jrdalino/aws-organizations-multi-account-hardening |
-| 3 | AWS Cloudtrail            | https://github.com/jrdalino/aws-cloudtrail-terraform |
-| 4 | AWS Delete Default VPC    | https://github.com/jrdalino/aws-delete-default-vpc |
-| 5 | AWS Secrets, Parameters   | https://github.com/jrdalino/aws-secrets-manager |
-| 6 | AWS Inspector             | Add URL here |
-| 7 | AWS Macie                 | Add URL here |
-| 8 | AWS Certificate Manager   | SSL/TLS using AWS Certificate Mgr https://github.com/jrdalino/aws-certificate-manager |
-| 9 | AWS KMS                   | Add URL here |
-| 10 | AWS WAF                  | Add URL here |
-| 11 | AWS Firewall Manager     | Add URL here |
-| 12 | AWS Artifact             | Add URL here |
-| 13 | AWS Security Hub         | Add URL here |
-| 14 | AWS Detective            | Add URL here |
-| 15 | OWASP Top 10             | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
-| 16 | AWS GuardDuty            | https://github.com/jrdalino/aws-guardduty |
-| 17 | Backend Static Testing w/ Sonarqube       | https://github.com/jrdalino/kubernetes-helm-sonarqube |
-| 18 | Backend Dynamic Testing  | Container Scanning w/ Anchore Engine / Aqua Microscanner / Clair / Dagda / Twistlock |
-| 19 | Frontend Static Testing  | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
-| 20 | Frontend Dynamic Testing | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
-| 21 | Check for commited secrets on Git Repo    | https://github.com/awslabs/git-secrets & https://github.com/zricethezav/gitleaks |
+| 1  | IAM                       | Add URL here |
+| 2  | Resource Access Manager   | https://github.com/jrdalino/aws-resource-access-manager-terraform |
+| 3  | Cognito Identity          | https://github.com/jrdalino/aws-cognito-terraform
+| 4  | AWS Secrets Manager       | https://github.com/jrdalino/aws-secrets-manager 
+| 5  | AWS GuardDuty             | https://github.com/jrdalino/aws-guardduty |
+| 6  | AWS Inspector             | Add URL here |
+| 7  | AWS Macie                 | Add URL here |
+| 8  | AWS Single Sign-On        | Add URL here |
+| 9  | AWS Certificate Manager   | https://github.com/jrdalino/aws-certificate-manager |
+| 10 | AWS KMS                   | Add URL here |
+| 11 | AWS Cloud HSM             | Add URL here |
+| 12 | AWS Directory Service     | Add URL here |
+| 13 | AWS WAF & Shield          | Add URL here |
+| 14 | AWS Firewall Manager      | Add URL here |
+| 15 | AWS Artifact              | Add URL here |
+| 13 | AWS Security Hub          | Add URL here |
+| 14 | AWS Detective             | Add URL here |
+| 15 | Zero Trust Model          | https://github.com/jrdalino/zero-trust-model-notes |
+| 16 | AWS Account Hardening     | https://github.com/jrdalino/aws-organizations-multi-account-hardening |
+| 17 | AWS Cloudtrail            | https://github.com/jrdalino/aws-cloudtrail-terraform |
+| 18 | AWS Delete Default VPC    | https://github.com/jrdalino/aws-delete-default-vpc |
+| 19 | OWASP Top 10              | https://github.com/aws-samples/aws-waf-sample/blob/master/waf-owasp-top-10/owasp_10_base.yml |
+| 20 | BE Static Test Sonarqube  | https://github.com/jrdalino/kubernetes-helm-sonarqube |
+| 21 | BE Dynamic Testing        | Container Scanning w/ Anchore Engine / Aqua Microscanner / Clair / Dagda / Twistlock |
+| 22 | FE Static Testing         | https://www.npmjs.com/package/auditjs & https://retirejs.github.io/retire.js & https://www.owasp.org/index.php/OWASP_Dependency_Check |
+| 23 | FE Dynamic Testing        | https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project |
+| 24 | Check commited secrets Git| https://github.com/awslabs/git-secrets & https://github.com/zricethezav/gitleaks |
 
 ### Reliability
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | Install Grafana using Helm                 | https://github.com/jrdalino/install-grafana-using-helm |
 | 2 | Deploy monitoring using Prometheus         | https://github.com/jrdalino/install-prometheus-using-helm |
-| 3 | Instrumentation w/ AWS XRay, Zipkin, Opentracing | https://github.com/jrdalino/aws-eks-xray-java |
+| 3 | Instrumentation XRay, Zipkin, Opentracing  | https://github.com/jrdalino/aws-eks-xray-java |
 | 4 | Service Discovery w/ Consul, AWS CloudMap  | Add URL here | 
 | 5 | Service Mesh w/ Istio or AWS Appmesh       | https://github.com/jrdalino/istio-notes |
 | 6 | Alerting w/ AlertManager, PagerDuty, Slack | Add URL here | 
@@ -151,15 +157,15 @@
 ###  Performance Efficiency
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS CloudFront                             | Add URL here |
-| 2 | AWS Route 53                               | Register/Transfer Domain Name using Route 53 for CloudFront CDN |
-| 3 | RDS Read Replica                           | Add URL here |
-| 4 | AWS DynamoDB DAX                           | Add URL here |
-| 5 | AWS ElastiCache (Redis)                    | Add URL here |
-| 6 | EKS Cluster AutoScaling                    | https://github.com/jrdalino/kubernetes-autoscaling |
-| 7 | Kubernetes Horizontal Pod AutoScaler       | https://github.com/jrdalino/kubernetes-autoscaling |
-| 8 | Kubernetes Liveness Probes                 | https://github.com/jrdalino/kubernetes-liveness-probes |
-| 9 | Kubernetes Readiness Probes                | https://github.com/jrdalino/kubernetes-readiness-probes |
+| 1  | AWS CloudFront                            | Add URL here |
+| 2  | AWS Route 53                              | Register/Transfer Domain Name using Route 53 for CloudFront CDN |
+| 3  | RDS Read Replica                          | Add URL here |
+| 4  | AWS DynamoDB DAX                          | Add URL here |
+| 5  | AWS ElastiCache (Redis)                   | Add URL here |
+| 6  | EKS Cluster AutoScaling                   | https://github.com/jrdalino/kubernetes-autoscaling |
+| 7  | Kubernetes Horizontal Pod AutoScaler      | https://github.com/jrdalino/kubernetes-autoscaling |
+| 8  | Kubernetes Liveness Probes                | https://github.com/jrdalino/kubernetes-liveness-probes |
+| 9  | Kubernetes Readiness Probes               | https://github.com/jrdalino/kubernetes-readiness-probes |
 | 10 | AI Ops                                    | Predictive Autoscaling for Kubernetes w/ Prometheus + Amazon SageMaker |
 | 11 | Load Testing w/ Locust JMeter             | Add URL here |
 
