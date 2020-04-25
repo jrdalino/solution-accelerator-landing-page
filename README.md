@@ -29,8 +29,8 @@
 | 2 | VPC                            | https://github.com/jrdalino/aws-vpc-terraform | Done |
 | 3 | EKS Cluster                    | https://github.com/jrdalino/aws-eks-terraform (includes VPC) | Done |
 | 4 | Lambda to EKS                  | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 5 | Cognito Identity & AuthN       | https://github.com/jrdalino/aws-cognito-terraform & https://github.com/jrdalino/myproject-consumer-web-amazon-cognito | Done |
-| 6 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform & https://github.com/jrdalino/amazon-api-gateway | Done |
+| 5 | Cognito Identity & AuthN       | https://github.com/jrdalino/aws-cognito-terraform | Done |
+| 6 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform | Done |
 | 7 | DNS: Route53                   | To follow | None |
 | 8 | CDN: CloudFront                | To follow | None |
 | 9 | Metrics: Prometheus + Grafana  | To follow | None |
