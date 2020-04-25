@@ -25,12 +25,12 @@
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
-| 1 | Terraform State Backend        | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
-| 2 | VPC                            | https://github.com/jrdalino/aws-vpc-terraform | Done |
-| 3 | EKS Cluster                    | https://github.com/jrdalino/aws-eks-terraform (includes VPC) | Done |
-| 4 | Lambda to EKS                  | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 5 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform | Done |
-| 6 | DNS: Route53                   | To follow | None |
+| 1 | DNS: Route53                   | To follow | None |
+| 2 | Terraform State Backend        | https://github.com/jrdalino/aws-tfstate-backend-terraform | Done |
+| 3 | VPC                            | https://github.com/jrdalino/aws-vpc-terraform | Done |
+| 4 | EKS Cluster                    | https://github.com/jrdalino/aws-eks-terraform (includes VPC) | Done |
+| 5 | Lambda to EKS                  | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
+| 6 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform | Done |
 | 7 | CDN: CloudFront                | To follow | None |
 | 8 | Metrics: Prometheus + Grafana  | To follow | None |
 | 9 | Logging: ES + FluentD + Kibana | To follow | None |
