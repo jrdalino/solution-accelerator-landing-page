@@ -63,7 +63,7 @@
 | 4.2 | Admin Frontend w/ LB    | To follow | None |
 | 5.1 | Supplier Frontend CI/CD | To follow | None |
 | 5.2 | Supplier Frontend w /LB | To follow | None |
-| 6.1 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-webapp-service-terraform | Done |
+| 6.1 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-eks-terraform & https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | Done |
 | 6.2 | Customer Frontend w/ LB | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
 | 7.1 | Customer ReactNtv CI/CD | To follow | None |
 | 7.2 | Customer ReactNtv App   | To follow | None |
