@@ -45,6 +45,8 @@
 - Service Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
+- Naming Convention: < myproject >-< provider >-< service >-< language >
+
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1.1 | Customer Svc NoSQL DB   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
