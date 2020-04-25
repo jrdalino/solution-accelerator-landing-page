@@ -29,30 +29,30 @@
 | 2 | VPC                            | https://github.com/jrdalino/aws-vpc-terraform | Done |
 | 3 | EKS Cluster                    | https://github.com/jrdalino/aws-eks-terraform (includes VPC) | Done |
 | 4 | Lambda to EKS                  | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
-| 5 | Cognito Identity & AuthN       | https://github.com/jrdalino/aws-cognito-terraform | Done |
-| 6 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform | Done |
-| 7 | DNS: Route53                   | To follow | None |
-| 8 | CDN: CloudFront                | To follow | None |
-| 9 | Metrics: Prometheus + Grafana  | To follow | None |
-| 10 | Logging: ES + FluentD + Kibana| To follow | None |
-| 11 | Tracing: OpenTelemetry        | To follow | None |
-| 12 | Service Mesh: Istio           | To follow | None |
-| 13.1 | Load Generator CI/CD Locust | To follow | None |
-| 13.2 | Load Generator Scripts      | To follow | None |
+| 5 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform | Done |
+| 6 | DNS: Route53                   | To follow | None |
+| 7 | CDN: CloudFront                | To follow | None |
+| 8 | Metrics: Prometheus + Grafana  | To follow | None |
+| 9 | Logging: ES + FluentD + Kibana | To follow | None |
+| 10 | Tracing: OpenTelemetry        | To follow | None |
+| 11 | Service Mesh: Istio           | To follow | None |
+| 12 | Load Generator CI/CD Locust   | To follow | None |
+| 13 | Load Generator Scripts        | To follow | None |
 | 14 | Policy: OpenPolicyAgent       | To follow | None |
 
 ### Minimum Viable Pilot - Microservices
 - Service Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
-- Naming Convention: < myproject >-< provider >-< service >-< language >
+- Naming Convention: < project_name >-< provider >-< service >-< language >
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
-| 1.1 | Customer Svc NoSQL DB   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 1.2 | Customer Svc CI/CD      | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
-| 1.3 | Customer Svc API        | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 1.4 | Customer Svc APIGW TF   | To follow | None |
+| 1.1 | Cognito Identity & AuthN| https://github.com/jrdalino/aws-cognito-terraform | Done |
+| 1.2 | Customer Svc NoSQL DB   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
+| 1.3 | Customer Svc CI/CD      | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
+| 1.4 | Customer Svc API        | https://github.com/jrdalino/myproject-customer-service-python | Done |
+| 1.5 | Customer Svc APIGW TF   | To follow | None |
 | 2.1 | Product Svc NoSQL DB    | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | None |
 | 2.2 | Product Svc CI/CD       | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | None |
 | 2.3 | Product Svc API         | https://github.com/jrdalino/myproject-product-service-python | Done |
@@ -61,10 +61,12 @@
 | 3.2 | Inventory Svc CI/CD     | To follow | None |
 | 3.3 | Inventory Svc API       | To follow | None |
 | 3.4 | Inventory Svc APIGW TF  | To follow | None |
-| 4.1 | Admin Frontend CI/CD    | To follow | None |
-| 4.2 | Admin Frontend w/ LB    | To follow | None |
-| 5.1 | Supplier Frontend CI/CD | To follow | None |
-| 5.2 | Supplier Frontend w /LB | To follow | None |
+| 4.1 | Cognito Identity & AuthN| https://github.com/jrdalino/aws-cognito-terraform | Done |
+| 4.2 | Admin Frontend CI/CD    | To follow | None |
+| 4.3 | Admin Frontend w/ LB    | To follow | None |
+| 5.1 | Cognito Identity & AuthN| https://github.com/jrdalino/aws-cognito-terraform | Done |
+| 5.2 | Supplier Frontend CI/CD | To follow | None |
+| 5.3 | Supplier Frontend w /LB | To follow | None |
 | 6.1 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-eks-terraform & https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | Done |
 | 6.2 | Customer Frontend w/ LB | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
 | 7.1 | Customer ReactNtv CI/CD | To follow | None |
@@ -90,29 +92,21 @@
 | 12.3 | Email Svc API          | To follow | None |
 | 12.4 | Email Svc APIGW TF     | To follow | None |
 
-- Naming Convention: < project >-< provider >-< service >-< language >
-
 ## Phase 4: Scale
 ### Choose a data store
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS ECR                   | https://github.com/jrdalino/aws-ecr-terraform |
-| 2 | AWS CodeCommit            | https://github.com/jrdalino/aws-codecommit-terraform |
-| 3 | AWS S3                    | https://github.com/jrdalino/aws-s3-terraform |
-| 4 | AWS Glacier               | Add URL here |
-| 5 | AWS EFS                   | Add URL here |
-| 6 | AWS RDS                   | Add URL here |
-| 7 | AWS DynamoDB              | https://github.com/jrdalino/aws-dynamodb-terraform |
-| 8 | AWS Neptune               | Add URL here |
-| 9 | AWS Redshift              | Add URL here |
-| 10 | AWS Elasticsearch        | Add URL here |
-| 11 | AWS SQS                  | https://github.com/jrdalino/aws-sqs-terraform |
-
-### Choose a compute service
-
-### Choose a load balancing service
-
-### Choose a messaging service
+| 1 | AWS ECR            | https://github.com/jrdalino/aws-ecr-terraform |
+| 2 | AWS CodeCommit     | https://github.com/jrdalino/aws-codecommit-terraform |
+| 3 | AWS S3             | https://github.com/jrdalino/aws-s3-terraform |
+| 4 | AWS Glacier        | Add URL here |
+| 5 | AWS EFS            | Add URL here |
+| 6 | AWS RDS            | Add URL here |
+| 7 | AWS DynamoDB       | https://github.com/jrdalino/aws-dynamodb-terraform |
+| 8 | AWS Neptune        | Add URL here |
+| 9 | AWS Redshift       | Add URL here |
+| 10 | AWS Elasticsearch | Add URL here |
+| 11 | AWS SQS           | https://github.com/jrdalino/aws-sqs-terraform |
 
 ### Security and Governance
 | Step | Description | URL |
@@ -159,39 +153,40 @@
 ###  Performance Efficiency
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1  | AWS CloudFront                            | Add URL here |
-| 2  | AWS Route 53                              | Register/Transfer Domain Name using Route 53 for CloudFront CDN |
-| 3  | RDS Read Replica                          | Add URL here |
-| 4  | AWS DynamoDB DAX                          | Add URL here |
-| 5  | AWS ElastiCache (Redis)                   | Add URL here |
-| 6  | EKS Cluster AutoScaling                   | https://github.com/jrdalino/kubernetes-autoscaling |
-| 7  | Kubernetes Horizontal Pod AutoScaler      | https://github.com/jrdalino/kubernetes-autoscaling |
-| 8  | Kubernetes Liveness Probes                | https://github.com/jrdalino/kubernetes-liveness-probes |
-| 9  | Kubernetes Readiness Probes               | https://github.com/jrdalino/kubernetes-readiness-probes |
-| 10 | AI Ops                                    | Predictive Autoscaling for Kubernetes w/ Prometheus + Amazon SageMaker |
-| 11 | Load Testing w/ Locust JMeter             | Add URL here |
+| 1  | AWS CloudFront                       | Add URL here |
+| 2  | AWS Route 53                         | Register/Transfer Domain Name using Route 53 for CloudFront CDN |
+| 3  | RDS Read Replica                     | Add URL here |
+| 4  | AWS DynamoDB DAX                     | Add URL here |
+| 5  | AWS ElastiCache (Redis)              | Add URL here |
+| 6  | EKS Cluster AutoScaling              | https://github.com/jrdalino/kubernetes-autoscaling |
+| 7  | Kubernetes Horizontal Pod AutoScaler | https://github.com/jrdalino/kubernetes-autoscaling |
+| 8  | Kubernetes Liveness Probes           | https://github.com/jrdalino/kubernetes-liveness-probes |
+| 9  | Kubernetes Readiness Probes          | https://github.com/jrdalino/kubernetes-readiness-probes |
+| 10 | AI Ops                               | Predictive Autoscaling for Kubernetes w/ Prometheus + Amazon SageMaker |
+| 11 | Load Testing w/ Locust JMeter        | Add URL here |
 
 ###  Cost Optimisation
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | Tagging Standards                          | https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ |
-| 2 | AWS Cost Explorer                          | https://github.com/jrdalino/aws-cost-explorer |
-| 3 | AWS Budgets                                | https://github.com/jrdalino/aws-budgets |
-| 4 | AWS Pricing Calculator                     | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
+| 1 | TCO                    | https://aws.amazon.com/tco-calculator/ |
+| 2 | Tagging Standards      | https://aws.amazon.com/answers/account-management/aws-tagging-strategies/ |
+| 3 | AWS Cost Explorer      | https://github.com/jrdalino/aws-cost-explorer |
+| 4 | AWS Budgets            | https://github.com/jrdalino/aws-budgets |
+| 5 | AWS Pricing Calculator | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
 ###  Operational Excellence
 #### Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
-| 1 | AWS Organizations                          | Add URL here |
-| 2 | AWS AutoScaling                            | Add URL here |
-| 3 | AWS Config                                 | Add URL here |
-| 4 | AWS Trusted Advisor                        | https://github.com/jrdalino/aws-trusted-advisor |
-| 5 | AWS Well Architected Review                | https://github.com/jrdalino/aws-well-architected-questions & https://ap-southeast-2.console.aws.amazon.com/wellarchitected/home?region=ap-southeast-2#/welcome | |
-| 6 | AWS Infrastructure Event Management        | https://github.com/jrdalino/aws-infrastructure-event-management |
-| 7 | CI/CD For IaaS                             | Add URL here |
-| 8 | Helm Install                               | https://github.com/jrdalino/kubernetes-helm-install |
-| 9 | CI/CD for IaaS                             | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
+| 1 | AWS Organizations                   | Add URL here |
+| 2 | AWS AutoScaling                     | Add URL here |
+| 3 | AWS Config                          | Add URL here |
+| 4 | AWS Trusted Advisor                 | https://github.com/jrdalino/aws-trusted-advisor |
+| 5 | AWS Well Architected Review         | https://github.com/jrdalino/aws-well-architected-questions |
+| 6 | AWS Infrastructure Event Management | https://github.com/jrdalino/aws-infrastructure-event-management |
+| 7 | CI/CD For IaaS                      | Add URL here |
+| 8 | Helm Install                        | https://github.com/jrdalino/kubernetes-helm-install |
+| 9 | CI/CD for IaaS                      | Cloudformation: https://github.com/aws-quickstart/quickstart-taskcat-ci & Terraform: https://dzone.com/articles/immutable-infrastructure-cicd-using-hashicorp-terr |
 
 #### Observability
 | Step | Description | URL |
