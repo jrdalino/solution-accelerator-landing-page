@@ -18,8 +18,10 @@
 - Business Metrics
 - Service Levels
 - Software Architecture: https://github.com/jrdalino/system-design-primer
+- Protoftype using a Dev + Infra Framwork like Google Firebase or AWS Amplify: https://github.com/jrdalino/aws-amplify-notes
 
-### Minimum Viable Pilot - Infra
+## Phase 4: Scale
+### Infra Architecture
 - Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
 
@@ -40,7 +42,7 @@
 | 13 | Load Generator Scripts        | To follow | None |
 | 14 | Policy: OpenPolicyAgent       | To follow | None |
 
-### Minimum Viable Pilot - Microservices
+### Service Architecture
 - Service Architecture Diagram: https://app.diagrams.net/#G1MloaDlg1IMQL7WkI3KbIilyPGtFN3iJV
 ![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/application-architecture-diagram.png)
 
@@ -97,7 +99,6 @@
 | 11.3 | Email Svc REST API     | To follow | None |
 | 11.4 | Email Svc APIGW TF     | To follow | None |
 
-## Phase 4: Scale
 ### Choose a data store
 | Step | Description | URL |
 | ---- | ----------- | --- |
