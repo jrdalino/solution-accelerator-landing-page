@@ -1,8 +1,5 @@
 # Solution Accelerator Home
 
-## Prerequisites
-- https://github.com/jrdalino/development-environment-setup
-
 ## Phase 1: Discover
 - Business Model Canvas: https://docs.google.com/drawings/d/102mOZQmMxs0CslmNsPZ5KCNQwAIh9rh4baYgT0VWNAA/template/preview?usp=drive_web
 - Functional
@@ -19,6 +16,7 @@
 - Service Levels
 - Software Architecture: https://github.com/jrdalino/system-design-primer
 - Protoftype using a Dev + Infra Framwork like Google Firebase or AWS Amplify: https://github.com/jrdalino/aws-amplify-notes
+- Local Dev Environment Setup: https://github.com/jrdalino/development-environment-setup
 
 ## Phase 4: Scale
 ### Infra Architecture
@@ -156,7 +154,7 @@
 | 6 | Alerting w/ AlertManager, PagerDuty, Slack | Add URL here | 
 | 7 | Logging w/ ElastiSearch, Fluentd, Kibana   | https://github.com/jrdalino/elasticsearch-fluentd-kibana |
 
-###  Performance Efficiency
+### Performance Efficiency
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1  | AWS CloudFront                       | Add URL here |
@@ -171,7 +169,7 @@
 | 10 | AI Ops                               | Predictive Autoscaling for Kubernetes w/ Prometheus + Amazon SageMaker |
 | 11 | Load Testing w/ Locust JMeter        | Add URL here |
 
-###  Cost Optimisation
+### Cost Optimisation
 | Step | Description | URL |
 | ---- | ----------- | --- |
 | 1 | TCO                    | https://aws.amazon.com/tco-calculator/ |
@@ -180,7 +178,7 @@
 | 4 | AWS Budgets            | https://github.com/jrdalino/aws-budgets |
 | 5 | AWS Pricing Calculator | https://calculator.s3.amazonaws.com/index.html & https://calculator.aws/#/ |
 
-###  Operational Excellence
+### Operational Excellence
 #### Governance
 | Step | Description | URL |
 | ---- | ----------- | --- |
