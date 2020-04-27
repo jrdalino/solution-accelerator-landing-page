@@ -33,7 +33,7 @@
 | 4 | EKS Cluster                    | https://github.com/jrdalino/aws-eks-terraform (includes VPC) | Done |
 | 5 | Lambda to EKS                  | https://github.com/jrdalino/aws-lambda-deploy-ecr-to-eks-nodejs-terraform | Done |
 | 6 | API Gateway and VPC Link       | https://github.com/jrdalino/aws-apigateway-terraform | Done |
-| 7 | CDN: CloudFront                | To follow | None |
+| 7 | CDN: CloudFront                | https://github.com/jrdalino/aws-cloudfront-terraform | Ongoing |
 | 8 | Metrics: Prometheus + Grafana  | To follow | None |
 | 9 | Logging: ES + FluentD + Kibana | To follow | None |
 | 10 | Tracing: OpenTelemetry        | To follow | None |
