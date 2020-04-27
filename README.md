@@ -48,49 +48,54 @@
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
-| 1.1 | Cognito Identity & AuthN| https://github.com/jrdalino/aws-cognito-terraform | Done |
-| 1.2 | Customer Svc NoSQL DB   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
-| 1.3 | Customer Svc CI/CD      | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
-| 1.4 | Customer Svc API        | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 1.5 | Customer Svc APIGW TF   | To follow | None |
-| 2.1 | Product Svc NoSQL DB    | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | None |
-| 2.2 | Product Svc CI/CD       | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | None |
-| 2.3 | Product Svc API         | https://github.com/jrdalino/myproject-product-service-python | Done |
-| 2.4 | Product Svc APIGW TF    | To follow | None |
-| 3.1 | Inventory Svc NoSQL DB  | To follow | None |
-| 3.2 | Inventory Svc CI/CD     | To follow | None |
-| 3.3 | Inventory Svc API       | To follow | None |
-| 3.4 | Inventory Svc APIGW TF  | To follow | None |
-| 4.1 | Cognito Identity & AuthN| https://github.com/jrdalino/aws-cognito-terraform | Done |
-| 4.2 | Admin Frontend CI/CD    | To follow | None |
-| 4.3 | Admin Frontend w/ LB    | To follow | None |
-| 5.1 | Cognito Identity & AuthN| https://github.com/jrdalino/aws-cognito-terraform | Done |
-| 5.2 | Supplier Frontend CI/CD | To follow | None |
-| 5.3 | Supplier Frontend w /LB | To follow | None |
-| 6.1 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-eks-terraform & https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | Done |
-| 6.2 | Customer Frontend w/ LB | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
-| 7.1 | Customer ReactNtv CI/CD | To follow | None |
-| 7.2 | Customer ReactNtv App   | To follow | None |
-| 8.1 | Cart Svc Redis          | To follow | None |
-| 8.2 | Cart Svc CI/CD          | To follow | None |
-| 8.3 | Cart Svc API            | To follow | None |
-| 8.4 | Cart Svc APIGW TF       | To follow | None |
-| 9.1 | Order Svc NoSQL DB      | To follow | None |
-| 9.2 | Order Svc CI/CD         | To follow | None |
-| 9.3 | Order Svc API           | To follow | None |
-| 9.4 | Order Svc APIGW TF      | To follow | None |
-| 10.1 | Billing Svc NoSQL DB   | To follow | None |
-| 10.2 | Billing Svc CI/CD      | To follow | None |
-| 10.3 | Billing Svc API        | To follow | None |
-| 10.4 | Billing Svc APIGW TF   | To follow | None |
-| 11.1 | Payment Svc NoSQL DB   | To follow | None |
-| 11.2 | Payment Svc CI/CD      | To follow | None |
-| 11.3 | Payment Svc API        | To follow | None |
-| 11.4 | Payment Svc APIGW TF   | To follow | None |
-| 12.1 | Email Svc NoSQL DB     | To follow | None |
-| 12.2 | Email Svc CI/CD        | To follow | None |
-| 12.3 | Email Svc API          | To follow | None |
-| 12.4 | Email Svc APIGW TF     | To follow | None |
+| 1.1 | Admin Cognito AuthN     | https://github.com/jrdalino/aws-cognito-terraform | None |
+| 1.2 | Admin Frontend CI/CD    | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | None |
+| 1.3 | Admin React Frontend    | To follow | None |
+| 2.1 | Supplier Cognito AuthN  | https://github.com/jrdalino/aws-cognito-terraform | None |
+| 2.2 | Supplier Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | None |
+| 2.3 | Supplier React Frontend | To follow | None |
+| 3.1 | Customer Cognito AuthN  | https://github.com/jrdalino/aws-cognito-terraform | Done |
+| 3.2 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-eks-terraform | Done |
+| 3.3 | Customer React Frontend | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 4.1 | Customer Svc NoSQL DB   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
+| 4.2 | Customer Svc CI/CD      | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
+| 4.3 | Customer Svc REST API   | https://github.com/jrdalino/myproject-customer-service-python | Done |
+| 4.4 | Customer Svc APIGW TF   | To follow | None |
+| 4.5 | Customer CRUD Frontend  | To follow | None |
+| 5.1 | Product Svc NoSQL DB    | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | None |
+| 5.2 | Product Svc CI/CD       | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | None |
+| 5.3 | Product Svc REST API    | https://github.com/jrdalino/myproject-product-service-python | None |
+| 5.4 | Product Svc APIGW TF    | To follow | None |
+| 5.5 | Product CRUD Frontend   | To follow | None |
+| 6.1 | Inventory Svc NoSQL DB  | To follow | None |
+| 6.2 | Inventory Svc CI/CD     | To follow | None |
+| 6.3 | Inventory Svc REST API  | To follow | None |
+| 6.4 | Inventory Svc APIGW TF  | To follow | None |
+| 6.5 | Inventory CRUD  Frontend| To follow | None |
+| 7.1 | Cart Svc Redis          | To follow | None |
+| 7.2 | Cart Svc CI/CD          | To follow | None |
+| 7.3 | Cart Svc REST API       | To follow | None |
+| 7.4 | Cart Svc APIGW TF       | To follow | None |
+| 7.5 | Cart CRUD  Frontend     | To follow | None |
+| 8.1 | Order Svc NoSQL DB      | To follow | None |
+| 8.2 | Order Svc CI/CD         | To follow | None |
+| 8.3 | Order Svc REST API      | To follow | None |
+| 8.4 | Order Svc APIGW TF      | To follow | None |
+| 8.5 | Order CRUD  Frontend    | To follow | None |
+| 9.1 | Billing Svc NoSQL DB    | To follow | None |
+| 9.2 | Billing Svc CI/CD       | To follow | None |
+| 9.3 | Billing Svc REST API    | To follow | None |
+| 9.4 | Billing Svc APIGW TF    | To follow | None |
+| 9.5 | Billing CRUD  Frontend  | To follow | None |
+| 10.1 | Payment Svc NoSQL DB   | To follow | None |
+| 10.2 | Payment Svc CI/CD      | To follow | None |
+| 10.3 | Payment Svc REST API   | To follow | None |
+| 10.4 | Payment Svc APIGW TF   | To follow | None |
+| 10.5 | Payment CRUD Frontend  | To follow | None |
+| 11.1 | Email Svc NoSQL DB     | To follow | None |
+| 11.2 | Email Svc CI/CD        | To follow | None |
+| 11.3 | Email Svc REST API     | To follow | None |
+| 11.4 | Email Svc APIGW TF     | To follow | None |
 
 ## Phase 4: Scale
 ### Choose a data store
