@@ -65,7 +65,7 @@
 | 5.1 | Product Svc NoSQL DB    | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | None |
 | 5.2 | Product Svc CI/CD       | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | None |
 | 5.3 | Product Svc REST API    | https://github.com/jrdalino/myproject-product-service-python | None |
-| 5.4 | Product Svc APIGW TF    | To follow | None |
+| 5.4 | Product Svc APIGW TF    | https://github.com/jrdalino/myproject-aws-apigateway-product-service-terraform | None |
 | 5.5 | Product CRUD Frontend   | N/A | None |
 | 6.1 | Inventory Svc NoSQL DB  | https://github.com/jrdalino/myproject-aws-dynamodb-inventory-service-terraform | None |
 | 6.2 | Inventory Svc CI/CD     | https://github.com/jrdalino/myproject-aws-codepipeline-inventory-service-terraform | None |
