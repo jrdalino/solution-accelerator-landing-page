@@ -48,35 +48,35 @@
 
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
-| 1.1 | Admin Cognito AuthN     | https://github.com/jrdalino/aws-cognito-terraform | None |
-| 1.2 | Admin Frontend CI/CD    | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | None |
-| 1.3 | Admin React Frontend    | To follow | None |
-| 2.1 | Supplier Cognito AuthN  | https://github.com/jrdalino/aws-cognito-terraform | None |
-| 2.2 | Supplier Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-s3-terraform | None |
-| 2.3 | Supplier React Frontend | To follow | None |
-| 3.1 | Customer Cognito AuthN  | https://github.com/jrdalino/aws-cognito-terraform | Done |
-| 3.2 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-eks-terraform | Done |
-| 3.3 | Customer React Frontend | https://github.com/jrdalino/myproject-web-service-react | Ongoing |
+| 1.1 | Admin Cognito AuthN     | https://github.com/jrdalino/myproject-aws-cognito-admin-terraform | None |
+| 1.2 | Admin Frontend CI/CD    | https://github.com/jrdalino/myproject-aws-codepipeline-admin-web-s3-terraform & https://github.com/jrdalino/myproject-aws-codepipeline-admin-web-eks-terraform| None |
+| 1.3 | Admin React Frontend    | https://github.com/jrdalino/myproject-admin-web-react | None |
+| 2.1 | Supplier Cognito AuthN  | https://github.com/jrdalino/myproject-aws-cognito-supplier-terraform | None |
+| 2.2 | Supplier Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-supplier-web-s3-terraform & https://github.com/jrdalino/myproject-aws-codepipeline-supplier-web-eks-terraform | None |
+| 2.3 | Supplier React Frontend | https://github.com/jrdalino/myproject-supplier-web-react | None |
+| 3.1 | Customer Cognito AuthN  | https://github.com/jrdalino/myproject-aws-cognito-customer-terraform | Done |
+| 3.2 | Customer Frontend CI/CD | https://github.com/jrdalino/myproject-aws-codepipeline-consumer-web-eks-terraform & https://github.com/jrdalino/myproject-aws-codepipeline-customer-web-eks-terraform | Done |
+| 3.3 | Customer React Frontend | https://github.com/jrdalino/myproject-customer-web-react | Ongoing |
 | 4.1 | Customer Svc NoSQL DB   | https://github.com/jrdalino/myproject-aws-dynamodb-customer-service-terraform | Done |
 | 4.2 | Customer Svc CI/CD      | https://github.com/jrdalino/myproject-aws-codepipeline-customer-service-terraform | Done |
 | 4.3 | Customer Svc REST API   | https://github.com/jrdalino/myproject-customer-service-python | Done |
-| 4.4 | Customer Svc APIGW TF   | To follow | None |
-| 4.5 | Customer CRUD Frontend  | To follow | None |
+| 4.4 | Customer Svc APIGW TF   | https://github.com/jrdalino/myproject-aws-apigateway-customer-service-terraform | None |
+| 4.5 | Customer CRUD Frontend  | N/A | None |
 | 5.1 | Product Svc NoSQL DB    | https://github.com/jrdalino/myproject-aws-dynamodb-product-service-terraform | None |
 | 5.2 | Product Svc CI/CD       | https://github.com/jrdalino/myproject-aws-codepipeline-product-service-terraform | None |
 | 5.3 | Product Svc REST API    | https://github.com/jrdalino/myproject-product-service-python | None |
 | 5.4 | Product Svc APIGW TF    | To follow | None |
-| 5.5 | Product CRUD Frontend   | To follow | None |
-| 6.1 | Inventory Svc NoSQL DB  | To follow | None |
-| 6.2 | Inventory Svc CI/CD     | To follow | None |
-| 6.3 | Inventory Svc REST API  | To follow | None |
-| 6.4 | Inventory Svc APIGW TF  | To follow | None |
-| 6.5 | Inventory CRUD  Frontend| To follow | None |
-| 7.1 | Cart Svc Redis          | To follow | None |
-| 7.2 | Cart Svc CI/CD          | To follow | None |
-| 7.3 | Cart Svc REST API       | To follow | None |
-| 7.4 | Cart Svc APIGW TF       | To follow | None |
-| 7.5 | Cart CRUD  Frontend     | To follow | None |
+| 5.5 | Product CRUD Frontend   | N/A | None |
+| 6.1 | Inventory Svc NoSQL DB  | https://github.com/jrdalino/myproject-aws-dynamodb-inventory-service-terraform | None |
+| 6.2 | Inventory Svc CI/CD     | https://github.com/jrdalino/myproject-aws-codepipeline-inventory-service-terraform | None |
+| 6.3 | Inventory Svc REST API  | https://github.com/jrdalino/myproject-inventory-service-python | None |
+| 6.4 | Inventory Svc APIGW TF  | https://github.com/jrdalino/myproject-aws-apigateway-inventory-service-terraform | None |
+| 6.5 | Inventory CRUD  Frontend| N/A | None |
+| 7.1 | Cart Svc Redis          | https://github.com/jrdalino/myproject-aws-elasticache-redis-cart-service-terraform | None |
+| 7.2 | Cart Svc CI/CD          | https://github.com/jrdalino/myproject-aws-codepipeline-cart-service-terraform | None |
+| 7.3 | Cart Svc REST API       | https://github.com/jrdalino/myproject-cart-service-python | None |
+| 7.4 | Cart Svc APIGW TF       | https://github.com/jrdalino/myproject-aws-apigateway-cart-service-terraform | None |
+| 7.5 | Cart CRUD  Frontend     | N/A | None |
 | 8.1 | Order Svc NoSQL DB      | To follow | None |
 | 8.2 | Order Svc CI/CD         | To follow | None |
 | 8.3 | Order Svc REST API      | To follow | None |
