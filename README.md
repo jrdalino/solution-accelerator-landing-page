@@ -1,28 +1,5 @@
 # Solution Accelerator Home
 
-## Phase 1: Discover
-- Business Model Canvas: https://docs.google.com/drawings/d/102mOZQmMxs0CslmNsPZ5KCNQwAIh9rh4baYgT0VWNAA/template/preview?usp=drive_web
-- Functional
-- Non Functional Requirements
-
-## Phase 2: Prototype
-- Storyboard
-- Wireframes
-- Mockups
-- POC: https://github.com/jrdalino/aws-amplify-notes
-
-## Phase 3: Pilot / MVP
-- Business Metrics
-- Service Levels
-- Software Architecture: https://github.com/jrdalino/system-design-primer
-- Protoftype using a Dev + Infra Framwork like Google Firebase or AWS Amplify: https://github.com/jrdalino/aws-amplify-notes
-- Local Dev Environment Setup: https://github.com/jrdalino/development-environment-setup
-
-## Phase 4: Scale
-### Infra Architecture
-- Infra Architecture Diagram: https://www.draw.io/#G1I1q3XWw3KAdFl1bfwG3AbW_tR6GKMXsB
-![Image description](https://github.com/jrdalino/myproject-landing-page/blob/master/public-cloud-architecture-diagram-AWS.png)
-
 | Step | Description | URL | Status |
 | ---- | ----------- | --- | ------ |
 | 1 | DNS: Route53                   | To follow | None |
